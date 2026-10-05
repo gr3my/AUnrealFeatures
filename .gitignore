@@ -1,0 +1,11 @@
+.vs/
+bin/
+obj/
+node_modules/
+.next/
+*.user
+*.suo
+*.log
+.env
+.env.*
+!.env.example

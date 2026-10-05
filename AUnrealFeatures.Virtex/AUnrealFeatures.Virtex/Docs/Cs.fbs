@@ -1,0 +1,330 @@
+// round-replay data (/api/map/{MapId}/rounds/{RoundId}/data response body).
+//
+// Table::VerifyTableStart / per-type Verify() bounds-checkers and a handful of
+//
+// CONFIDENCE KEY (see inline comments per field):
+//                       Verify(); name is a placeholder (field_0xNN) and WILL
+//                       need manual correction before this is authoritative.
+//   [STUB]            — table's existence is confirmed (referenced as a
+//                       vector-of-tables or table target) but no Verify()/
+//                       are a complete guess / omitted.
+//
+// corrected against real captured binary samples before this can be trusted
+// data endpoint (returns 404) rather than using this schema, since it's not
+// reliable enough yet to hand-generate a buffer that passes
+// flatbuffers::Verifier::VerifyBufferFromStart<Cs::FramesChunk> client-side.
+
+namespace Cs;
+
+// ---------------------------------------------------------------------------
+// Common structs (fixed-size, referenced via Common:: namespace in the binary)
+// ---------------------------------------------------------------------------
+
+// Grenade::origin both return const Common::Vec3*)
+struct Vec3 (namespace: Common) {
+  x: float;
+  y: float;
+  z: float;
+}
+
+// [NAME-CONFIRMED via AlivePlayerFrameInfo::eye_angles -> pitch_, yaw_ members]
+// size = 8 bytes per VerifyField<VecAngle>(..., 8u) call in AlivePlayerFrameInfo/Prop
+struct VecAngle (namespace: Common) {
+  pitch: float; // [NAME-CONFIRMED] real member name seen as `pitch_`
+  yaw: float;   // [NAME-CONFIRMED] real member name seen as `yaw_`
+}
+
+// name/shape guessed from "U8Vec3" symbol fragment seen in decompiled Smoke::Verify
+struct U8Vec3 (namespace: Common) {
+  x: ubyte; // [OFFSET-ONLY]
+  y: ubyte; // [OFFSET-ONLY]
+  z: ubyte; // [OFFSET-ONLY]
+}
+
+// ---------------------------------------------------------------------------
+// Root
+// ---------------------------------------------------------------------------
+
+table FramesChunk {
+  frames: [Frame]; // [OFFSET-ONLY] field name guessed; confirmed to be a
+                    // vector<Frame> verified via VerifyVectorOfTables<Frame>
+}
+
+root_type FramesChunk;
+
+// ---------------------------------------------------------------------------
+// Per-frame snapshot
+// ---------------------------------------------------------------------------
+
+table Frame {
+  round_context: RoundContext;    // [NAME-CONFIRMED] Cs::Frame::round_context()
+  countdown: Countdown;           // [NAME-CONFIRMED] Cs::Frame::countdown()
+  dead_players: [PlayerFrameInfo];// [NAME-CONFIRMED] Cs::Frame::dead_players()
+  items: [WorldItem];             // [NAME-CONFIRMED] Cs::Frame::items()
+  grenades: [Grenade];            // [NAME-CONFIRMED] Cs::Frame::grenades()
+  bomb: BombPlantFrame;           // [NAME-CONFIRMED] Cs::Frame::bomb()
+  sounds: [Sound];                // [NAME-CONFIRMED] Cs::Frame::sounds()
+  events: [EventTable];           // [NAME-CONFIRMED] Cs::Frame::events()
+  slack_time_info: SlackTimeInfo; // [NAME-CONFIRMED] Cs::Frame::slack_time_info()
+  // NOTE: exact vtable-offset ordering of the above 9 fields relative to each
+  // other is NOT fully pinned down — Frame::Verify (0x144defaa0, 0xb5d bytes)
+  // checks roughly a dozen offset slots (confirmed seen: 4, 6, 0x10, 0x14,
+  // 0x1A among others) but this pass did not map every field name to its
+  // exact offset with certainty. Treat field ORDER above as unconfirmed even
+  // though field EXISTENCE and NAMES are confirmed.
+  field_timestamp: long;  // [OFFSET-ONLY] Frame almost certainly carries a
+                          // tick/timestamp scalar (used by
+                          // IsUtcTimeStampWithinChunk/GetFrameIndexForUtcTimestamp)
+                          // but its exact offset/type was not isolated this pass.
+}
+
+// ---------------------------------------------------------------------------
+// Round / match structure
+// ---------------------------------------------------------------------------
+
+table Round {
+  frames: [Frame];             // [NAME-CONFIRMED] Cs::Round::frames()
+  winner_team: TeamInfo;       // [NAME-CONFIRMED] Cs::Round::winner_team()
+  bravo_final_score: Score;    // [NAME-CONFIRMED] Cs::Round::bravo_final_score()
+  alpha_final_score: Score;    // [OFFSET-ONLY] presumed symmetric counterpart;
+                               // not independently confirmed by name this pass
+  duels: [Duel];               // [OFFSET-ONLY] confirmed present via
+                               // VerifyVectorOfTables<Duel>; no named accessor found
+  bomb_plant_info: BombPlantInfo; // [OFFSET-ONLY] confirmed present via
+                                  // Round::Verify calling BombPlantInfo::Verify;
+                                  // no named accessor found
+}
+
+table RoundContext {
+  bravo_team_info: TeamInfo;   // [NAME-CONFIRMED] Cs::RoundContext::bravo_team_info()
+  alpha_team_info: TeamInfo;   // [OFFSET-ONLY] presumed symmetric counterpart
+  match_context: MatchContext; // [OFFSET-ONLY] confirmed present via
+                               // RoundContext::Verify calling MatchContext::Verify
+}
+
+table TeamInfo {
+  players: [PlayerInfo]; // [NAME-CONFIRMED] Cs::TeamInfo::players()
+  field_0x4: string;     // [OFFSET-ONLY] string field seen in TeamInfo::Verify
+                         // (team name / clan tag, unconfirmed which)
+}
+
+table MatchContext {
+  field_0xA: float; // [OFFSET-ONLY]
+  field_0xC: float; // [OFFSET-ONLY]
+  field_0xE: float; // [OFFSET-ONLY]
+  field_0x6: string; // [OFFSET-ONLY] string field seen at offset 6
+  field_0x8: string; // [OFFSET-ONLY] string field seen at offset 8
+  field_0x4: TeamInfo; // [OFFSET-ONLY] TeamInfo-shaped ref at offset 4 (unconfirmed)
+}
+
+// ---------------------------------------------------------------------------
+// Players
+// ---------------------------------------------------------------------------
+
+table PlayerInfo {
+  field_0x4: string;      // [OFFSET-ONLY] likely player name or SteamID
+  field_0x6: string;      // [OFFSET-ONLY] likely the other of name/SteamID
+  team: TeamInfo;         // [OFFSET-ONLY] table-ref @ offset 8, verified via
+                          // TeamInfo::players recursion — actual field name
+                          // unconfirmed (could be "team" or something else)
+  field_0xA: ubyte;       // [OFFSET-ONLY]
+}
+
+// PlayerFrameInfo wraps a PlayerInfo + per-frame alive-state
+table PlayerFrameInfo {
+  player_info: PlayerInfo;         // [OFFSET-ONLY] table-ref @ offset 4
+  team_info_ref: TeamInfo;         // [OFFSET-ONLY] table-ref @ offset 6 (players-shaped)
+  alive_info: AlivePlayerFrameInfo;// [OFFSET-ONLY] table-ref @ offset 0xA
+                                   // (accessor decompiled as `Cs::Sound::sound_name`
+                                   // due to ICF folding — name is WRONG, this is
+                                   // definitely NOT a sound field; real name unknown)
+  field_0xC: ubyte;                 // [OFFSET-ONLY]
+}
+
+// Per-frame live player state (position, health, weapons, view angles, etc.)
+table AlivePlayerFrameInfo {
+  player_frame_info_ref: PlayerFrameInfo; // [OFFSET-ONLY] table-ref @ offset 4
+  pos_x: float;              // [OFFSET-ONLY] offset 0xC
+  pos_y: float;              // [OFFSET-ONLY] offset 0xE
+  health: ushort;            // [OFFSET-ONLY] offset 0x10 (guessed semantic)
+  armor: ushort;             // [OFFSET-ONLY] offset 0x12 (guessed semantic)
+  field_0x14: ubyte;         // [OFFSET-ONLY]
+  field_0x16: ubyte;         // [OFFSET-ONLY]
+  weapons: [EquippedWeapon]; // [OFFSET-ONLY] vector-of-tables @ offset 0x18
+  field_0x1A: ubyte;         // [OFFSET-ONLY]
+  field_0x1C: ubyte;         // [OFFSET-ONLY]
+  field_0x1E: ubyte;         // [OFFSET-ONLY]
+  field_0x20: ubyte;         // [OFFSET-ONLY]
+  field_0x22: ubyte;         // [OFFSET-ONLY]
+  field_0x24: ubyte;         // [OFFSET-ONLY]
+  field_0x26: ubyte;         // [OFFSET-ONLY]
+  field_0x28: ubyte;         // [OFFSET-ONLY]
+  field_0x2A: ubyte;         // [OFFSET-ONLY]
+  eye_angles: Common.VecAngle; // [NAME-CONFIRMED] Cs::AlivePlayerFrameInfo::eye_angles()
+  field_0x2E: Common.VecAngle; // [OFFSET-ONLY] second VecAngle field — unclear
+                               // purpose (maybe aim-punch or velocity direction)
+  field_0x30: ubyte;         // [OFFSET-ONLY]
+  field_0x32: ubyte;         // [OFFSET-ONLY]
+  field_0x34: float;         // [OFFSET-ONLY] possibly velocity magnitude or flash duration
+}
+
+// ---------------------------------------------------------------------------
+// Events
+// ---------------------------------------------------------------------------
+
+// located this pass at all (likely wraps a union-like set of sub-event tables:
+// PlayerDeathEvent, PlayerHurtEvent, etc. — genuinely unknown structure)
+table EventTable {
+  field_unknown: ubyte; // [STUB] placeholder only
+}
+
+table PlayerHurtEvent {
+  attacker: AlivePlayerFrameInfo; // [OFFSET-ONLY] table-ref @ offset 4
+  victim_ref: AlivePlayerFrameInfo; // [OFFSET-ONLY] table-ref @ offset 6
+                                     // (decompiled via Round::frames accessor
+                                     // due to ICF folding — name is WRONG)
+  field_0x8: ubyte;   // [OFFSET-ONLY]
+  field_0xA: ubyte;   // [OFFSET-ONLY]
+  damage: ushort;     // [OFFSET-ONLY] offset 0xC (guessed semantic)
+  field_0xE: ubyte;   // [OFFSET-ONLY]
+  field_0x10: ubyte;  // [OFFSET-ONLY]
+  field_0x12: ubyte;  // [OFFSET-ONLY]
+}
+
+table PlayerDeathEvent {
+  attacker: AlivePlayerFrameInfo; // [OFFSET-ONLY] table-ref @ offset 4
+  victim: AlivePlayerFrameInfo;   // [OFFSET-ONLY] table-ref @ offset 6
+  assister: AlivePlayerFrameInfo; // [OFFSET-ONLY] table-ref @ offset 8
+  field_0xA: ubyte; // [OFFSET-ONLY]
+  field_0xC: ubyte; // [OFFSET-ONLY]
+  field_0xE: ubyte; // [OFFSET-ONLY]
+  hurt_events: [PlayerHurtEvent]; // [NAME-CONFIRMED] Cs::PlayerDeathEvent::hurt_events()
+  field_0x12: ushort; // [OFFSET-ONLY]
+  field_0x14: ubyte;  // [OFFSET-ONLY]
+  field_0x16: ubyte;  // [OFFSET-ONLY]
+  field_0x18: ubyte;  // [OFFSET-ONLY]
+}
+
+// [STUB] confirmed present (referenced by AlivePlayerFrameInfo.weapons vector);
+table EquippedWeapon {
+  field_unknown: ubyte; // [STUB] placeholder only
+}
+
+// ---------------------------------------------------------------------------
+// World entities
+// ---------------------------------------------------------------------------
+
+table WorldItem {
+  rotation: Common.Vec3; // [NAME-CONFIRMED] Cs::WorldItem::rotation()
+  item_id: int;          // [OFFSET-ONLY] inferred from InterpolateFrameItemRotation
+                         // matching `frameItemId` against a scalar read from this table
+  field_0x6: ushort;      // [OFFSET-ONLY]
+}
+
+table Grenade {
+  origin: Common.Vec3;   // [NAME-CONFIRMED] Cs::Grenade::origin()
+  field_0x6: ushort;     // [OFFSET-ONLY]
+  field_0xA: ubyte;      // [OFFSET-ONLY]
+  field_0xC: float;      // [OFFSET-ONLY]
+  field_0xE: ushort;     // [OFFSET-ONLY]
+  round_context_ref: RoundContext; // [OFFSET-ONLY] table-ref @ offset 0xE/0x10
+                                    // (decompiled via a mislabeled
+                                    // AlivePlayerFrameInfo::Verify call due to
+                                    // ICF folding — likely wrong; real target
+                                    // type/name unconfirmed)
+  smoke: Smoke;          // [OFFSET-ONLY] table-ref @ offset 0x10, verified via
+                         // Smoke::Verify — this is plausible as-is (a Grenade
+                         // that becomes a Smoke cloud)
+}
+
+// [STUB] confirmed to exist (Frame::Verify references it); no Verify()/
+table Inferno {
+  field_unknown: ubyte; // [STUB] placeholder only
+}
+
+table Smoke {
+  field_0x6: ushort;         // [OFFSET-ONLY]
+  field_0xA: [Common.U8Vec3];// [OFFSET-ONLY] vector of U8Vec3 (likely smoke
+                             // cloud grid/voxel positions)
+  sound_name: string;        // [NAME-CONFIRMED via Cs::Sound::sound_name — but
+                             // NOTE: this accessor name is being reused across
+                             // Smoke/Inferno/Prop due to ICF folding; real field
+                             // at this offset in Smoke may not actually be a
+                             // sound name, treat with caution]
+  countdown_ref: Countdown; // [OFFSET-ONLY] table-ref @ offset 0xC, verified
+                            // via Countdown recursion — plausible (smoke
+                            // dissipation timer) but unconfirmed name
+}
+
+table Prop {
+  field_0x6: ushort;   // [OFFSET-ONLY]
+  field_0xA: ubyte;    // [OFFSET-ONLY] (offset-only, VerifyOffset only, no type)
+  sound_name: string;  // [OFFSET-ONLY, name borrowed from folded accessor —
+                       // unreliable, see Smoke note above]
+  name: string;        // [OFFSET-ONLY] separate string field @ offset 0xC
+                       // (VerifyString called directly, likely the prop's
+                       // model/class name)
+  field_0x10: ubyte;   // [OFFSET-ONLY]
+  eye_angles_or_rotation: Common.VecAngle; // [OFFSET-ONLY] offset 0x12, 8 bytes
+}
+
+// ---------------------------------------------------------------------------
+// Bomb / round-state
+// ---------------------------------------------------------------------------
+
+table BombPlantFrame {
+  field_0x4: ubyte;  // [OFFSET-ONLY] (table-ref, unconfirmed target type)
+  field_0x6: ubyte;  // [OFFSET-ONLY] (table-ref, unconfirmed target type)
+  field_0x8: ubyte;  // [OFFSET-ONLY] (table-ref, unconfirmed target type)
+  field_0xA: ubyte;  // [OFFSET-ONLY]
+  field_0xC: float;  // [OFFSET-ONLY] likely bomb plant timer/countdown value
+}
+
+table BombPlantInfo {
+  field_0x4: ubyte;       // [OFFSET-ONLY] (table-ref, unconfirmed target type)
+  field_0x6: ubyte;       // [OFFSET-ONLY] (table-ref, unconfirmed target type)
+  planter: PlayerInfo;    // [OFFSET-ONLY] table-ref @ offset 8, verified via
+                         // PlayerInfo::Verify — plausible name
+  field_0xA_ref: PlayerInfo; // [OFFSET-ONLY] second PlayerInfo-shaped ref @
+                            // offset 0xA (decompiled via folded Sound::sound_name
+                            // accessor — name unreliable; could be defuser)
+  field_0xC: ubyte;  // [OFFSET-ONLY]
+  plant_time: float; // [OFFSET-ONLY] offset 0xE (guessed semantic)
+}
+
+table Countdown {
+  field_0x4: string; // [OFFSET-ONLY]
+  field_0x6: string; // [OFFSET-ONLY]
+  players: [PlayerInfo]; // [OFFSET-ONLY] vector-of-tables @ offset 8, verified
+                        // via AlivePlayerFrameInfo::Verify recursion (name
+                        // borrowed from folded TeamInfo::players accessor —
+                        // treat with caution, this may not be PlayerInfo)
+}
+
+table SlackTimeInfo {
+  field_0x4: string;  // [OFFSET-ONLY]
+  field_0x6: string;  // [OFFSET-ONLY]
+  team_info: TeamInfo; // [OFFSET-ONLY] table-ref @ offset 8, verified via
+                       // TeamInfo::Verify
+  frame_ref: Frame;    // [OFFSET-ONLY] table-ref @ offset 0xA, verified via
+                       // Frame::Verify recursion (unusual: SlackTimeInfo
+                       // pointing back to a Frame — could be a "next/adjacent
+                       // frame" reference for timing interpolation)
+}
+
+// ---------------------------------------------------------------------------
+// ---------------------------------------------------------------------------
+
+// [STUB] confirmed to exist via VerifyTable<Score> template instantiation
+// (referenced from Round.bravo_final_score / presumed alpha_final_score)
+table Score {
+  field_unknown: int; // [STUB] almost certainly two integer fields (alpha/bravo
+                      // round or kill counts) but completely unconfirmed
+}
+
+// [STUB] confirmed to exist via VerifyVectorOfTables<Duel> (Round.duels vector)
+table Duel {
+  field_unknown: ubyte; // [STUB] placeholder only — likely player-vs-player
+                        // combat encounter summary (attacker/victim/weapon/
+                        // outcome) but completely unconfirmed
+}

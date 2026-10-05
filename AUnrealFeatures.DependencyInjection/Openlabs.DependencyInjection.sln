@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Openlabs.DependencyInjection", "Openlabs.DependencyInjection\Openlabs.DependencyInjection.csproj", "{F8467B98-7069-4FB4-9DE3-710F5EC72143}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Openlabs.DependencyInjection.Tests", "Openlabs.DependencyInjection.Tests\Openlabs.DependencyInjection.Tests.csproj", "{FE2C37D2-5B89-47B2-96B1-901934768CA7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8467B98-7069-4FB4-9DE3-710F5EC72143}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8467B98-7069-4FB4-9DE3-710F5EC72143}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8467B98-7069-4FB4-9DE3-710F5EC72143}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8467B98-7069-4FB4-9DE3-710F5EC72143}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE2C37D2-5B89-47B2-96B1-901934768CA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE2C37D2-5B89-47B2-96B1-901934768CA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE2C37D2-5B89-47B2-96B1-901934768CA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE2C37D2-5B89-47B2-96B1-901934768CA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {481077B6-43DD-4DCF-B088-43C1989F32C0}
+	EndGlobalSection
+EndGlobal

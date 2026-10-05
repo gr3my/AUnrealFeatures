@@ -1,0 +1,3626 @@
+[
+  {
+    "surface": "Addon",
+    "method": "CreateOrUpdateApple",
+    "path": "/Addon/CreateOrUpdateApple",
+    "req": "CreateOrUpdateAppleRequest",
+    "res": "CreateOrUpdateAppleResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Addon",
+    "method": "CreateOrUpdateFacebook",
+    "path": "/Addon/CreateOrUpdateFacebook",
+    "req": "CreateOrUpdateFacebookRequest",
+    "res": "CreateOrUpdateFacebookResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Addon",
+    "method": "CreateOrUpdateFacebookInstantGames",
+    "path": "/Addon/CreateOrUpdateFacebookInstantGames",
+    "req": "CreateOrUpdateFacebookInstantGamesRequest",
+    "res": "CreateOrUpdateFacebookInstantGamesResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Addon",
+    "method": "CreateOrUpdateGoogle",
+    "path": "/Addon/CreateOrUpdateGoogle",
+    "req": "CreateOrUpdateGoogleRequest",
+    "res": "CreateOrUpdateGoogleResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Addon",
+    "method": "CreateOrUpdateKongregate",
+    "path": "/Addon/CreateOrUpdateKongregate",
+    "req": "CreateOrUpdateKongregateRequest",
+    "res": "CreateOrUpdateKongregateResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Addon",
+    "method": "CreateOrUpdateNintendo",
+    "path": "/Addon/CreateOrUpdateNintendo",
+    "req": "CreateOrUpdateNintendoRequest",
+    "res": "CreateOrUpdateNintendoResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Addon",
+    "method": "CreateOrUpdatePSN",
+    "path": "/Addon/CreateOrUpdatePSN",
+    "req": "CreateOrUpdatePSNRequest",
+    "res": "CreateOrUpdatePSNResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Addon",
+    "method": "CreateOrUpdateSteam",
+    "path": "/Addon/CreateOrUpdateSteam",
+    "req": "CreateOrUpdateSteamRequest",
+    "res": "CreateOrUpdateSteamResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Addon",
+    "method": "CreateOrUpdateToxMod",
+    "path": "/Addon/CreateOrUpdateToxMod",
+    "req": "CreateOrUpdateToxModRequest",
+    "res": "CreateOrUpdateToxModResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Addon",
+    "method": "CreateOrUpdateTwitch",
+    "path": "/Addon/CreateOrUpdateTwitch",
+    "req": "CreateOrUpdateTwitchRequest",
+    "res": "CreateOrUpdateTwitchResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Addon",
+    "method": "DeleteApple",
+    "path": "/Addon/DeleteApple",
+    "req": "DeleteAppleRequest",
+    "res": "DeleteAppleResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Addon",
+    "method": "DeleteFacebook",
+    "path": "/Addon/DeleteFacebook",
+    "req": "DeleteFacebookRequest",
+    "res": "DeleteFacebookResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Addon",
+    "method": "DeleteFacebookInstantGames",
+    "path": "/Addon/DeleteFacebookInstantGames",
+    "req": "DeleteFacebookInstantGamesRequest",
+    "res": "DeleteFacebookInstantGamesResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Addon",
+    "method": "DeleteGoogle",
+    "path": "/Addon/DeleteGoogle",
+    "req": "DeleteGoogleRequest",
+    "res": "DeleteGoogleResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Addon",
+    "method": "DeleteKongregate",
+    "path": "/Addon/DeleteKongregate",
+    "req": "DeleteKongregateRequest",
+    "res": "DeleteKongregateResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Addon",
+    "method": "DeleteNintendo",
+    "path": "/Addon/DeleteNintendo",
+    "req": "DeleteNintendoRequest",
+    "res": "DeleteNintendoResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Addon",
+    "method": "DeletePSN",
+    "path": "/Addon/DeletePSN",
+    "req": "DeletePSNRequest",
+    "res": "DeletePSNResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Addon",
+    "method": "DeleteSteam",
+    "path": "/Addon/DeleteSteam",
+    "req": "DeleteSteamRequest",
+    "res": "DeleteSteamResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Addon",
+    "method": "DeleteToxMod",
+    "path": "/Addon/DeleteToxMod",
+    "req": "DeleteToxModRequest",
+    "res": "DeleteToxModResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Addon",
+    "method": "DeleteTwitch",
+    "path": "/Addon/DeleteTwitch",
+    "req": "DeleteTwitchRequest",
+    "res": "DeleteTwitchResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Addon",
+    "method": "GetApple",
+    "path": "/Addon/GetApple",
+    "req": "GetAppleRequest",
+    "res": "GetAppleResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Addon",
+    "method": "GetFacebook",
+    "path": "/Addon/GetFacebook",
+    "req": "GetFacebookRequest",
+    "res": "GetFacebookResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Addon",
+    "method": "GetFacebookInstantGames",
+    "path": "/Addon/GetFacebookInstantGames",
+    "req": "GetFacebookInstantGamesRequest",
+    "res": "GetFacebookInstantGamesResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Addon",
+    "method": "GetGoogle",
+    "path": "/Addon/GetGoogle",
+    "req": "GetGoogleRequest",
+    "res": "GetGoogleResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Addon",
+    "method": "GetKongregate",
+    "path": "/Addon/GetKongregate",
+    "req": "GetKongregateRequest",
+    "res": "GetKongregateResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Addon",
+    "method": "GetNintendo",
+    "path": "/Addon/GetNintendo",
+    "req": "GetNintendoRequest",
+    "res": "GetNintendoResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Addon",
+    "method": "GetPSN",
+    "path": "/Addon/GetPSN",
+    "req": "GetPSNRequest",
+    "res": "GetPSNResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Addon",
+    "method": "GetSteam",
+    "path": "/Addon/GetSteam",
+    "req": "GetSteamRequest",
+    "res": "GetSteamResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Addon",
+    "method": "GetToxMod",
+    "path": "/Addon/GetToxMod",
+    "req": "GetToxModRequest",
+    "res": "GetToxModResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Addon",
+    "method": "GetTwitch",
+    "path": "/Addon/GetTwitch",
+    "req": "GetTwitchRequest",
+    "res": "GetTwitchResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Authentication",
+    "method": "AuthenticateGameServerWithCustomId",
+    "path": "/GameServerIdentity/AuthenticateGameServerWithCustomId",
+    "req": "AuthenticateCustomIdRequest",
+    "res": "AuthenticateCustomIdResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Authentication",
+    "method": "Delete",
+    "path": "/GameServerIdentity/Delete",
+    "req": "DeleteRequest",
+    "res": "EmptyResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Authentication",
+    "method": "ValidateEntityToken",
+    "path": "/Authentication/ValidateEntityToken",
+    "req": "ValidateEntityTokenRequest",
+    "res": "ValidateEntityTokenResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Client",
+    "method": "AcceptTrade",
+    "path": "/Client/AcceptTrade",
+    "req": "AcceptTradeRequest",
+    "res": "AcceptTradeResponse",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "AddFriend",
+    "path": "/Client/AddFriend",
+    "req": "AddFriendRequest",
+    "res": "AddFriendResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "AddGenericID",
+    "path": "/Client/AddGenericID",
+    "req": "AddGenericIDRequest",
+    "res": "AddGenericIDResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "AddOrUpdateContactEmail",
+    "path": "/Client/AddOrUpdateContactEmail",
+    "req": "AddOrUpdateContactEmailRequest",
+    "res": "AddOrUpdateContactEmailResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "AddSharedGroupMembers",
+    "path": "/Client/AddSharedGroupMembers",
+    "req": "AddSharedGroupMembersRequest",
+    "res": "AddSharedGroupMembersResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "AddUsernamePassword",
+    "path": "/Client/AddUsernamePassword",
+    "req": "AddUsernamePasswordRequest",
+    "res": "AddUsernamePasswordResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "AddUserVirtualCurrency",
+    "path": "/Client/AddUserVirtualCurrency",
+    "req": "AddUserVirtualCurrencyRequest",
+    "res": "ModifyUserVirtualCurrencyResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "AndroidDevicePushNotificationRegistration",
+    "path": "/Client/AndroidDevicePushNotificationRegistration",
+    "req": "AndroidDevicePushNotificationRegistrationRequest",
+    "res": "AndroidDevicePushNotificationRegistrationResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "AttributeInstall",
+    "path": "/Client/AttributeInstall",
+    "req": "AttributeInstallRequest",
+    "res": "AttributeInstallResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "CancelTrade",
+    "path": "/Client/CancelTrade",
+    "req": "CancelTradeRequest",
+    "res": "CancelTradeResponse",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "ConfirmPurchase",
+    "path": "/Client/ConfirmPurchase",
+    "req": "ConfirmPurchaseRequest",
+    "res": "ConfirmPurchaseResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "ConsumeItem",
+    "path": "/Client/ConsumeItem",
+    "req": "ConsumeItemRequest",
+    "res": "ConsumeItemResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "ConsumeMicrosoftStoreEntitlements",
+    "path": "/Client/ConsumeMicrosoftStoreEntitlements",
+    "req": "ConsumeMicrosoftStoreEntitlementsRequest",
+    "res": "ConsumeMicrosoftStoreEntitlementsResponse",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "ConsumePS5Entitlements",
+    "path": "/Client/ConsumePS5Entitlements",
+    "req": "ConsumePS5EntitlementsRequest",
+    "res": "ConsumePS5EntitlementsResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "ConsumePSNEntitlements",
+    "path": "/Client/ConsumePSNEntitlements",
+    "req": "ConsumePSNEntitlementsRequest",
+    "res": "ConsumePSNEntitlementsResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "ConsumeXboxEntitlements",
+    "path": "/Client/ConsumeXboxEntitlements",
+    "req": "ConsumeXboxEntitlementsRequest",
+    "res": "ConsumeXboxEntitlementsResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "CreateSharedGroup",
+    "path": "/Client/CreateSharedGroup",
+    "req": "CreateSharedGroupRequest",
+    "res": "CreateSharedGroupResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "DeletePlayerCustomProperties",
+    "path": "/Client/DeletePlayerCustomProperties",
+    "req": "DeletePlayerCustomPropertiesRequest",
+    "res": "DeletePlayerCustomPropertiesResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "ExecuteCloudScript",
+    "path": "/Client/ExecuteCloudScript",
+    "req": "ExecuteCloudScriptRequest",
+    "res": "ExecuteCloudScriptResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetAccountInfo",
+    "path": "/Client/GetAccountInfo",
+    "req": "GetAccountInfoRequest",
+    "res": "GetAccountInfoResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetAdPlacements",
+    "path": "/Client/GetAdPlacements",
+    "req": "GetAdPlacementsRequest",
+    "res": "GetAdPlacementsResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetAllUsersCharacters",
+    "path": "/Client/GetAllUsersCharacters",
+    "req": "ListUsersCharactersRequest",
+    "res": "ListUsersCharactersResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetCatalogItems",
+    "path": "/Client/GetCatalogItems",
+    "req": "GetCatalogItemsRequest",
+    "res": "GetCatalogItemsResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetCharacterData",
+    "path": "/Client/GetCharacterData",
+    "req": "GetCharacterDataRequest",
+    "res": "GetCharacterDataResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetCharacterInventory",
+    "path": "/Client/GetCharacterInventory",
+    "req": "GetCharacterInventoryRequest",
+    "res": "GetCharacterInventoryResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetCharacterLeaderboard",
+    "path": "/Client/GetCharacterLeaderboard",
+    "req": "GetCharacterLeaderboardRequest",
+    "res": "GetCharacterLeaderboardResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetCharacterReadOnlyData",
+    "path": "/Client/GetCharacterReadOnlyData",
+    "req": "GetCharacterDataRequest",
+    "res": "GetCharacterDataResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetCharacterStatistics",
+    "path": "/Client/GetCharacterStatistics",
+    "req": "GetCharacterStatisticsRequest",
+    "res": "GetCharacterStatisticsResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetContentDownloadUrl",
+    "path": "/Client/GetContentDownloadUrl",
+    "req": "GetContentDownloadUrlRequest",
+    "res": "GetContentDownloadUrlResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetFriendLeaderboard",
+    "path": "/Client/GetFriendLeaderboard",
+    "req": "GetFriendLeaderboardRequest",
+    "res": "GetLeaderboardResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetFriendLeaderboardAroundPlayer",
+    "path": "/Client/GetFriendLeaderboardAroundPlayer",
+    "req": "GetFriendLeaderboardAroundPlayerRequest",
+    "res": "GetFriendLeaderboardAroundPlayerResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetFriendsList",
+    "path": "/Client/GetFriendsList",
+    "req": "GetFriendsListRequest",
+    "res": "GetFriendsListResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetLeaderboard",
+    "path": "/Client/GetLeaderboard",
+    "req": "GetLeaderboardRequest",
+    "res": "GetLeaderboardResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetLeaderboardAroundCharacter",
+    "path": "/Client/GetLeaderboardAroundCharacter",
+    "req": "GetLeaderboardAroundCharacterRequest",
+    "res": "GetLeaderboardAroundCharacterResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetLeaderboardAroundPlayer",
+    "path": "/Client/GetLeaderboardAroundPlayer",
+    "req": "GetLeaderboardAroundPlayerRequest",
+    "res": "GetLeaderboardAroundPlayerResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetLeaderboardForUserCharacters",
+    "path": "/Client/GetLeaderboardForUserCharacters",
+    "req": "GetLeaderboardForUsersCharactersRequest",
+    "res": "GetLeaderboardForUsersCharactersResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetPaymentToken",
+    "path": "/Client/GetPaymentToken",
+    "req": "GetPaymentTokenRequest",
+    "res": "GetPaymentTokenResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetPhotonAuthenticationToken",
+    "path": "/Client/GetPhotonAuthenticationToken",
+    "req": "GetPhotonAuthenticationTokenRequest",
+    "res": "GetPhotonAuthenticationTokenResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetPlayerCombinedInfo",
+    "path": "/Client/GetPlayerCombinedInfo",
+    "req": "GetPlayerCombinedInfoRequest",
+    "res": "GetPlayerCombinedInfoResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetPlayerCustomProperty",
+    "path": "/Client/GetPlayerCustomProperty",
+    "req": "GetPlayerCustomPropertyRequest",
+    "res": "GetPlayerCustomPropertyResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetPlayerProfile",
+    "path": "/Client/GetPlayerProfile",
+    "req": "GetPlayerProfileRequest",
+    "res": "GetPlayerProfileResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetPlayerSegments",
+    "path": "/Client/GetPlayerSegments",
+    "req": "GetPlayerSegmentsRequest",
+    "res": "GetPlayerSegmentsResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetPlayerStatistics",
+    "path": "/Client/GetPlayerStatistics",
+    "req": "GetPlayerStatisticsRequest",
+    "res": "GetPlayerStatisticsResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetPlayerStatisticVersions",
+    "path": "/Client/GetPlayerStatisticVersions",
+    "req": "GetPlayerStatisticVersionsRequest",
+    "res": "GetPlayerStatisticVersionsResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetPlayerTags",
+    "path": "/Client/GetPlayerTags",
+    "req": "GetPlayerTagsRequest",
+    "res": "GetPlayerTagsResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetPlayerTrades",
+    "path": "/Client/GetPlayerTrades",
+    "req": "GetPlayerTradesRequest",
+    "res": "GetPlayerTradesResponse",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetPlayFabIDsFromBattleNetAccountIds",
+    "path": "/Client/GetPlayFabIDsFromBattleNetAccountIds",
+    "req": "GetPlayFabIDsFromBattleNetAccountIdsRequest",
+    "res": "GetPlayFabIDsFromBattleNetAccountIdsResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetPlayFabIDsFromFacebookIDs",
+    "path": "/Client/GetPlayFabIDsFromFacebookIDs",
+    "req": "GetPlayFabIDsFromFacebookIDsRequest",
+    "res": "GetPlayFabIDsFromFacebookIDsResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetPlayFabIDsFromFacebookInstantGamesIds",
+    "path": "/Client/GetPlayFabIDsFromFacebookInstantGamesIds",
+    "req": "GetPlayFabIDsFromFacebookInstantGamesIdsRequest",
+    "res": "GetPlayFabIDsFromFacebookInstantGamesIdsResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetPlayFabIDsFromGameCenterIDs",
+    "path": "/Client/GetPlayFabIDsFromGameCenterIDs",
+    "req": "GetPlayFabIDsFromGameCenterIDsRequest",
+    "res": "GetPlayFabIDsFromGameCenterIDsResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetPlayFabIDsFromGenericIDs",
+    "path": "/Client/GetPlayFabIDsFromGenericIDs",
+    "req": "GetPlayFabIDsFromGenericIDsRequest",
+    "res": "GetPlayFabIDsFromGenericIDsResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetPlayFabIDsFromGoogleIDs",
+    "path": "/Client/GetPlayFabIDsFromGoogleIDs",
+    "req": "GetPlayFabIDsFromGoogleIDsRequest",
+    "res": "GetPlayFabIDsFromGoogleIDsResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetPlayFabIDsFromGooglePlayGamesPlayerIDs",
+    "path": "/Client/GetPlayFabIDsFromGooglePlayGamesPlayerIDs",
+    "req": "GetPlayFabIDsFromGooglePlayGamesPlayerIDsRequest",
+    "res": "GetPlayFabIDsFromGooglePlayGamesPlayerIDsResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetPlayFabIDsFromKongregateIDs",
+    "path": "/Client/GetPlayFabIDsFromKongregateIDs",
+    "req": "GetPlayFabIDsFromKongregateIDsRequest",
+    "res": "GetPlayFabIDsFromKongregateIDsResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetPlayFabIDsFromNintendoServiceAccountIds",
+    "path": "/Client/GetPlayFabIDsFromNintendoServiceAccountIds",
+    "req": "GetPlayFabIDsFromNintendoServiceAccountIdsRequest",
+    "res": "GetPlayFabIDsFromNintendoServiceAccountIdsResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetPlayFabIDsFromNintendoSwitchDeviceIds",
+    "path": "/Client/GetPlayFabIDsFromNintendoSwitchDeviceIds",
+    "req": "GetPlayFabIDsFromNintendoSwitchDeviceIdsRequest",
+    "res": "GetPlayFabIDsFromNintendoSwitchDeviceIdsResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetPlayFabIDsFromOpenIdSubjectIdentifiers",
+    "path": "/Client/GetPlayFabIDsFromOpenIdSubjectIdentifiers",
+    "req": "GetPlayFabIDsFromOpenIdsRequest",
+    "res": "GetPlayFabIDsFromOpenIdsResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetPlayFabIDsFromPSNAccountIDs",
+    "path": "/Client/GetPlayFabIDsFromPSNAccountIDs",
+    "req": "GetPlayFabIDsFromPSNAccountIDsRequest",
+    "res": "GetPlayFabIDsFromPSNAccountIDsResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetPlayFabIDsFromPSNOnlineIDs",
+    "path": "/Client/GetPlayFabIDsFromPSNOnlineIDs",
+    "req": "GetPlayFabIDsFromPSNOnlineIDsRequest",
+    "res": "GetPlayFabIDsFromPSNOnlineIDsResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetPlayFabIDsFromSteamIDs",
+    "path": "/Client/GetPlayFabIDsFromSteamIDs",
+    "req": "GetPlayFabIDsFromSteamIDsRequest",
+    "res": "GetPlayFabIDsFromSteamIDsResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetPlayFabIDsFromSteamNames",
+    "path": "/Client/GetPlayFabIDsFromSteamNames",
+    "req": "GetPlayFabIDsFromSteamNamesRequest",
+    "res": "GetPlayFabIDsFromSteamNamesResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetPlayFabIDsFromTwitchIDs",
+    "path": "/Client/GetPlayFabIDsFromTwitchIDs",
+    "req": "GetPlayFabIDsFromTwitchIDsRequest",
+    "res": "GetPlayFabIDsFromTwitchIDsResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetPlayFabIDsFromXboxLiveIDs",
+    "path": "/Client/GetPlayFabIDsFromXboxLiveIDs",
+    "req": "GetPlayFabIDsFromXboxLiveIDsRequest",
+    "res": "GetPlayFabIDsFromXboxLiveIDsResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetPublisherData",
+    "path": "/Client/GetPublisherData",
+    "req": "GetPublisherDataRequest",
+    "res": "GetPublisherDataResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetPurchase",
+    "path": "/Client/GetPurchase",
+    "req": "GetPurchaseRequest",
+    "res": "GetPurchaseResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetSharedGroupData",
+    "path": "/Client/GetSharedGroupData",
+    "req": "GetSharedGroupDataRequest",
+    "res": "GetSharedGroupDataResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetStoreItems",
+    "path": "/Client/GetStoreItems",
+    "req": "GetStoreItemsRequest",
+    "res": "GetStoreItemsResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetTime",
+    "path": "/Client/GetTime",
+    "req": "GetTimeRequest",
+    "res": "GetTimeResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetTitleData",
+    "path": "/Client/GetTitleData",
+    "req": "GetTitleDataRequest",
+    "res": "GetTitleDataResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetTitleNews",
+    "path": "/Client/GetTitleNews",
+    "req": "GetTitleNewsRequest",
+    "res": "GetTitleNewsResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetTitlePublicKey",
+    "path": "/Client/GetTitlePublicKey",
+    "req": "GetTitlePublicKeyRequest",
+    "res": "GetTitlePublicKeyResult",
+    "auth": "None"
+  },
+  {
+    "surface": "Client",
+    "method": "GetTradeStatus",
+    "path": "/Client/GetTradeStatus",
+    "req": "GetTradeStatusRequest",
+    "res": "GetTradeStatusResponse",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetUserData",
+    "path": "/Client/GetUserData",
+    "req": "GetUserDataRequest",
+    "res": "GetUserDataResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetUserInventory",
+    "path": "/Client/GetUserInventory",
+    "req": "GetUserInventoryRequest",
+    "res": "GetUserInventoryResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetUserPublisherData",
+    "path": "/Client/GetUserPublisherData",
+    "req": "GetUserDataRequest",
+    "res": "GetUserDataResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetUserPublisherReadOnlyData",
+    "path": "/Client/GetUserPublisherReadOnlyData",
+    "req": "GetUserDataRequest",
+    "res": "GetUserDataResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GetUserReadOnlyData",
+    "path": "/Client/GetUserReadOnlyData",
+    "req": "GetUserDataRequest",
+    "res": "GetUserDataResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "GrantCharacterToUser",
+    "path": "/Client/GrantCharacterToUser",
+    "req": "GrantCharacterToUserRequest",
+    "res": "GrantCharacterToUserResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "LinkAndroidDeviceID",
+    "path": "/Client/LinkAndroidDeviceID",
+    "req": "LinkAndroidDeviceIDRequest",
+    "res": "LinkAndroidDeviceIDResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "LinkApple",
+    "path": "/Client/LinkApple",
+    "req": "LinkAppleRequest",
+    "res": "EmptyResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "LinkBattleNetAccount",
+    "path": "/Client/LinkBattleNetAccount",
+    "req": "LinkBattleNetAccountRequest",
+    "res": "EmptyResponse",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "LinkCustomID",
+    "path": "/Client/LinkCustomID",
+    "req": "LinkCustomIDRequest",
+    "res": "LinkCustomIDResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "LinkFacebookAccount",
+    "path": "/Client/LinkFacebookAccount",
+    "req": "LinkFacebookAccountRequest",
+    "res": "LinkFacebookAccountResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "LinkFacebookInstantGamesId",
+    "path": "/Client/LinkFacebookInstantGamesId",
+    "req": "LinkFacebookInstantGamesIdRequest",
+    "res": "LinkFacebookInstantGamesIdResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "LinkGameCenterAccount",
+    "path": "/Client/LinkGameCenterAccount",
+    "req": "LinkGameCenterAccountRequest",
+    "res": "LinkGameCenterAccountResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "LinkGoogleAccount",
+    "path": "/Client/LinkGoogleAccount",
+    "req": "LinkGoogleAccountRequest",
+    "res": "LinkGoogleAccountResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "LinkGooglePlayGamesServicesAccount",
+    "path": "/Client/LinkGooglePlayGamesServicesAccount",
+    "req": "LinkGooglePlayGamesServicesAccountRequest",
+    "res": "LinkGooglePlayGamesServicesAccountResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "LinkIOSDeviceID",
+    "path": "/Client/LinkIOSDeviceID",
+    "req": "LinkIOSDeviceIDRequest",
+    "res": "LinkIOSDeviceIDResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "LinkKongregate",
+    "path": "/Client/LinkKongregate",
+    "req": "LinkKongregateAccountRequest",
+    "res": "LinkKongregateAccountResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "LinkNintendoServiceAccount",
+    "path": "/Client/LinkNintendoServiceAccount",
+    "req": "LinkNintendoServiceAccountRequest",
+    "res": "EmptyResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "LinkNintendoSwitchDeviceId",
+    "path": "/Client/LinkNintendoSwitchDeviceId",
+    "req": "LinkNintendoSwitchDeviceIdRequest",
+    "res": "LinkNintendoSwitchDeviceIdResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "LinkOpenIdConnect",
+    "path": "/Client/LinkOpenIdConnect",
+    "req": "LinkOpenIdConnectRequest",
+    "res": "EmptyResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "LinkPSNAccount",
+    "path": "/Client/LinkPSNAccount",
+    "req": "LinkPSNAccountRequest",
+    "res": "LinkPSNAccountResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "LinkSteamAccount",
+    "path": "/Client/LinkSteamAccount",
+    "req": "LinkSteamAccountRequest",
+    "res": "LinkSteamAccountResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "LinkTwitch",
+    "path": "/Client/LinkTwitch",
+    "req": "LinkTwitchAccountRequest",
+    "res": "LinkTwitchAccountResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "LinkXboxAccount",
+    "path": "/Client/LinkXboxAccount",
+    "req": "LinkXboxAccountRequest",
+    "res": "LinkXboxAccountResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "ListPlayerCustomProperties",
+    "path": "/Client/ListPlayerCustomProperties",
+    "req": "ListPlayerCustomPropertiesRequest",
+    "res": "ListPlayerCustomPropertiesResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "LoginWithAndroidDeviceID",
+    "path": "/Client/LoginWithAndroidDeviceID",
+    "req": "LoginWithAndroidDeviceIDRequest",
+    "res": "LoginResult",
+    "auth": "None"
+  },
+  {
+    "surface": "Client",
+    "method": "LoginWithApple",
+    "path": "/Client/LoginWithApple",
+    "req": "LoginWithAppleRequest",
+    "res": "LoginResult",
+    "auth": "None"
+  },
+  {
+    "surface": "Client",
+    "method": "LoginWithBattleNet",
+    "path": "/Client/LoginWithBattleNet",
+    "req": "LoginWithBattleNetRequest",
+    "res": "LoginResult",
+    "auth": "None"
+  },
+  {
+    "surface": "Client",
+    "method": "LoginWithCustomID",
+    "path": "/Client/LoginWithCustomID",
+    "req": "LoginWithCustomIDRequest",
+    "res": "LoginResult",
+    "auth": "None"
+  },
+  {
+    "surface": "Client",
+    "method": "LoginWithEmailAddress",
+    "path": "/Client/LoginWithEmailAddress",
+    "req": "LoginWithEmailAddressRequest",
+    "res": "LoginResult",
+    "auth": "None"
+  },
+  {
+    "surface": "Client",
+    "method": "LoginWithFacebook",
+    "path": "/Client/LoginWithFacebook",
+    "req": "LoginWithFacebookRequest",
+    "res": "LoginResult",
+    "auth": "None"
+  },
+  {
+    "surface": "Client",
+    "method": "LoginWithFacebookInstantGamesId",
+    "path": "/Client/LoginWithFacebookInstantGamesId",
+    "req": "LoginWithFacebookInstantGamesIdRequest",
+    "res": "LoginResult",
+    "auth": "None"
+  },
+  {
+    "surface": "Client",
+    "method": "LoginWithGameCenter",
+    "path": "/Client/LoginWithGameCenter",
+    "req": "LoginWithGameCenterRequest",
+    "res": "LoginResult",
+    "auth": "None"
+  },
+  {
+    "surface": "Client",
+    "method": "LoginWithGoogleAccount",
+    "path": "/Client/LoginWithGoogleAccount",
+    "req": "LoginWithGoogleAccountRequest",
+    "res": "LoginResult",
+    "auth": "None"
+  },
+  {
+    "surface": "Client",
+    "method": "LoginWithGooglePlayGamesServices",
+    "path": "/Client/LoginWithGooglePlayGamesServices",
+    "req": "LoginWithGooglePlayGamesServicesRequest",
+    "res": "LoginResult",
+    "auth": "None"
+  },
+  {
+    "surface": "Client",
+    "method": "LoginWithIOSDeviceID",
+    "path": "/Client/LoginWithIOSDeviceID",
+    "req": "LoginWithIOSDeviceIDRequest",
+    "res": "LoginResult",
+    "auth": "None"
+  },
+  {
+    "surface": "Client",
+    "method": "LoginWithKongregate",
+    "path": "/Client/LoginWithKongregate",
+    "req": "LoginWithKongregateRequest",
+    "res": "LoginResult",
+    "auth": "None"
+  },
+  {
+    "surface": "Client",
+    "method": "LoginWithNintendoServiceAccount",
+    "path": "/Client/LoginWithNintendoServiceAccount",
+    "req": "LoginWithNintendoServiceAccountRequest",
+    "res": "LoginResult",
+    "auth": "None"
+  },
+  {
+    "surface": "Client",
+    "method": "LoginWithNintendoSwitchDeviceId",
+    "path": "/Client/LoginWithNintendoSwitchDeviceId",
+    "req": "LoginWithNintendoSwitchDeviceIdRequest",
+    "res": "LoginResult",
+    "auth": "None"
+  },
+  {
+    "surface": "Client",
+    "method": "LoginWithOpenIdConnect",
+    "path": "/Client/LoginWithOpenIdConnect",
+    "req": "LoginWithOpenIdConnectRequest",
+    "res": "LoginResult",
+    "auth": "None"
+  },
+  {
+    "surface": "Client",
+    "method": "LoginWithPlayFab",
+    "path": "/Client/LoginWithPlayFab",
+    "req": "LoginWithPlayFabRequest",
+    "res": "LoginResult",
+    "auth": "None"
+  },
+  {
+    "surface": "Client",
+    "method": "LoginWithPSN",
+    "path": "/Client/LoginWithPSN",
+    "req": "LoginWithPSNRequest",
+    "res": "LoginResult",
+    "auth": "None"
+  },
+  {
+    "surface": "Client",
+    "method": "LoginWithSteam",
+    "path": "/Client/LoginWithSteam",
+    "req": "LoginWithSteamRequest",
+    "res": "LoginResult",
+    "auth": "None"
+  },
+  {
+    "surface": "Client",
+    "method": "LoginWithTwitch",
+    "path": "/Client/LoginWithTwitch",
+    "req": "LoginWithTwitchRequest",
+    "res": "LoginResult",
+    "auth": "None"
+  },
+  {
+    "surface": "Client",
+    "method": "LoginWithXbox",
+    "path": "/Client/LoginWithXbox",
+    "req": "LoginWithXboxRequest",
+    "res": "LoginResult",
+    "auth": "None"
+  },
+  {
+    "surface": "Client",
+    "method": "OpenTrade",
+    "path": "/Client/OpenTrade",
+    "req": "OpenTradeRequest",
+    "res": "OpenTradeResponse",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "PayForPurchase",
+    "path": "/Client/PayForPurchase",
+    "req": "PayForPurchaseRequest",
+    "res": "PayForPurchaseResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "PurchaseItem",
+    "path": "/Client/PurchaseItem",
+    "req": "PurchaseItemRequest",
+    "res": "PurchaseItemResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "RedeemCoupon",
+    "path": "/Client/RedeemCoupon",
+    "req": "RedeemCouponRequest",
+    "res": "RedeemCouponResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "RefreshPSNAuthToken",
+    "path": "/Client/RefreshPSNAuthToken",
+    "req": "RefreshPSNAuthTokenRequest",
+    "res": "EmptyResponse",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "RegisterForIOSPushNotification",
+    "path": "/Client/RegisterForIOSPushNotification",
+    "req": "RegisterForIOSPushNotificationRequest",
+    "res": "RegisterForIOSPushNotificationResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "RegisterPlayFabUser",
+    "path": "/Client/RegisterPlayFabUser",
+    "req": "RegisterPlayFabUserRequest",
+    "res": "RegisterPlayFabUserResult",
+    "auth": "None"
+  },
+  {
+    "surface": "Client",
+    "method": "RemoveContactEmail",
+    "path": "/Client/RemoveContactEmail",
+    "req": "RemoveContactEmailRequest",
+    "res": "RemoveContactEmailResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "RemoveFriend",
+    "path": "/Client/RemoveFriend",
+    "req": "RemoveFriendRequest",
+    "res": "RemoveFriendResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "RemoveGenericID",
+    "path": "/Client/RemoveGenericID",
+    "req": "RemoveGenericIDRequest",
+    "res": "RemoveGenericIDResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "RemoveSharedGroupMembers",
+    "path": "/Client/RemoveSharedGroupMembers",
+    "req": "RemoveSharedGroupMembersRequest",
+    "res": "RemoveSharedGroupMembersResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "ReportAdActivity",
+    "path": "/Client/ReportAdActivity",
+    "req": "ReportAdActivityRequest",
+    "res": "ReportAdActivityResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "ReportDeviceInfo",
+    "path": "/Client/ReportDeviceInfo",
+    "req": "DeviceInfoRequest",
+    "res": "EmptyResponse",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "ReportPlayer",
+    "path": "/Client/ReportPlayer",
+    "req": "ReportPlayerClientRequest",
+    "res": "ReportPlayerClientResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "RestoreIOSPurchases",
+    "path": "/Client/RestoreIOSPurchases",
+    "req": "RestoreIOSPurchasesRequest",
+    "res": "RestoreIOSPurchasesResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "RewardAdActivity",
+    "path": "/Client/RewardAdActivity",
+    "req": "RewardAdActivityRequest",
+    "res": "RewardAdActivityResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "SendAccountRecoveryEmail",
+    "path": "/Client/SendAccountRecoveryEmail",
+    "req": "SendAccountRecoveryEmailRequest",
+    "res": "SendAccountRecoveryEmailResult",
+    "auth": "None"
+  },
+  {
+    "surface": "Client",
+    "method": "SetFriendTags",
+    "path": "/Client/SetFriendTags",
+    "req": "SetFriendTagsRequest",
+    "res": "SetFriendTagsResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "SetPlayerSecret",
+    "path": "/Client/SetPlayerSecret",
+    "req": "SetPlayerSecretRequest",
+    "res": "SetPlayerSecretResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "StartPurchase",
+    "path": "/Client/StartPurchase",
+    "req": "StartPurchaseRequest",
+    "res": "StartPurchaseResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "SubtractUserVirtualCurrency",
+    "path": "/Client/SubtractUserVirtualCurrency",
+    "req": "SubtractUserVirtualCurrencyRequest",
+    "res": "ModifyUserVirtualCurrencyResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "UnlinkAndroidDeviceID",
+    "path": "/Client/UnlinkAndroidDeviceID",
+    "req": "UnlinkAndroidDeviceIDRequest",
+    "res": "UnlinkAndroidDeviceIDResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "UnlinkApple",
+    "path": "/Client/UnlinkApple",
+    "req": "UnlinkAppleRequest",
+    "res": "EmptyResponse",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "UnlinkBattleNetAccount",
+    "path": "/Client/UnlinkBattleNetAccount",
+    "req": "UnlinkBattleNetAccountRequest",
+    "res": "EmptyResponse",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "UnlinkCustomID",
+    "path": "/Client/UnlinkCustomID",
+    "req": "UnlinkCustomIDRequest",
+    "res": "UnlinkCustomIDResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "UnlinkFacebookAccount",
+    "path": "/Client/UnlinkFacebookAccount",
+    "req": "UnlinkFacebookAccountRequest",
+    "res": "UnlinkFacebookAccountResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "UnlinkFacebookInstantGamesId",
+    "path": "/Client/UnlinkFacebookInstantGamesId",
+    "req": "UnlinkFacebookInstantGamesIdRequest",
+    "res": "UnlinkFacebookInstantGamesIdResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "UnlinkGameCenterAccount",
+    "path": "/Client/UnlinkGameCenterAccount",
+    "req": "UnlinkGameCenterAccountRequest",
+    "res": "UnlinkGameCenterAccountResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "UnlinkGoogleAccount",
+    "path": "/Client/UnlinkGoogleAccount",
+    "req": "UnlinkGoogleAccountRequest",
+    "res": "UnlinkGoogleAccountResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "UnlinkGooglePlayGamesServicesAccount",
+    "path": "/Client/UnlinkGooglePlayGamesServicesAccount",
+    "req": "UnlinkGooglePlayGamesServicesAccountRequest",
+    "res": "UnlinkGooglePlayGamesServicesAccountResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "UnlinkIOSDeviceID",
+    "path": "/Client/UnlinkIOSDeviceID",
+    "req": "UnlinkIOSDeviceIDRequest",
+    "res": "UnlinkIOSDeviceIDResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "UnlinkKongregate",
+    "path": "/Client/UnlinkKongregate",
+    "req": "UnlinkKongregateAccountRequest",
+    "res": "UnlinkKongregateAccountResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "UnlinkNintendoServiceAccount",
+    "path": "/Client/UnlinkNintendoServiceAccount",
+    "req": "UnlinkNintendoServiceAccountRequest",
+    "res": "EmptyResponse",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "UnlinkNintendoSwitchDeviceId",
+    "path": "/Client/UnlinkNintendoSwitchDeviceId",
+    "req": "UnlinkNintendoSwitchDeviceIdRequest",
+    "res": "UnlinkNintendoSwitchDeviceIdResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "UnlinkOpenIdConnect",
+    "path": "/Client/UnlinkOpenIdConnect",
+    "req": "UnlinkOpenIdConnectRequest",
+    "res": "EmptyResponse",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "UnlinkPSNAccount",
+    "path": "/Client/UnlinkPSNAccount",
+    "req": "UnlinkPSNAccountRequest",
+    "res": "UnlinkPSNAccountResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "UnlinkSteamAccount",
+    "path": "/Client/UnlinkSteamAccount",
+    "req": "UnlinkSteamAccountRequest",
+    "res": "UnlinkSteamAccountResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "UnlinkTwitch",
+    "path": "/Client/UnlinkTwitch",
+    "req": "UnlinkTwitchAccountRequest",
+    "res": "UnlinkTwitchAccountResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "UnlinkXboxAccount",
+    "path": "/Client/UnlinkXboxAccount",
+    "req": "UnlinkXboxAccountRequest",
+    "res": "UnlinkXboxAccountResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "UnlockContainerInstance",
+    "path": "/Client/UnlockContainerInstance",
+    "req": "UnlockContainerInstanceRequest",
+    "res": "UnlockContainerItemResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "UnlockContainerItem",
+    "path": "/Client/UnlockContainerItem",
+    "req": "UnlockContainerItemRequest",
+    "res": "UnlockContainerItemResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "UpdateAvatarUrl",
+    "path": "/Client/UpdateAvatarUrl",
+    "req": "UpdateAvatarUrlRequest",
+    "res": "EmptyResponse",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "UpdateCharacterData",
+    "path": "/Client/UpdateCharacterData",
+    "req": "UpdateCharacterDataRequest",
+    "res": "UpdateCharacterDataResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "UpdateCharacterStatistics",
+    "path": "/Client/UpdateCharacterStatistics",
+    "req": "UpdateCharacterStatisticsRequest",
+    "res": "UpdateCharacterStatisticsResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "UpdatePlayerCustomProperties",
+    "path": "/Client/UpdatePlayerCustomProperties",
+    "req": "UpdatePlayerCustomPropertiesRequest",
+    "res": "UpdatePlayerCustomPropertiesResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "UpdatePlayerStatistics",
+    "path": "/Client/UpdatePlayerStatistics",
+    "req": "UpdatePlayerStatisticsRequest",
+    "res": "UpdatePlayerStatisticsResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "UpdateSharedGroupData",
+    "path": "/Client/UpdateSharedGroupData",
+    "req": "UpdateSharedGroupDataRequest",
+    "res": "UpdateSharedGroupDataResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "UpdateUserData",
+    "path": "/Client/UpdateUserData",
+    "req": "UpdateUserDataRequest",
+    "res": "UpdateUserDataResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "UpdateUserPublisherData",
+    "path": "/Client/UpdateUserPublisherData",
+    "req": "UpdateUserDataRequest",
+    "res": "UpdateUserDataResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "UpdateUserTitleDisplayName",
+    "path": "/Client/UpdateUserTitleDisplayName",
+    "req": "UpdateUserTitleDisplayNameRequest",
+    "res": "UpdateUserTitleDisplayNameResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "ValidateAmazonIAPReceipt",
+    "path": "/Client/ValidateAmazonIAPReceipt",
+    "req": "ValidateAmazonReceiptRequest",
+    "res": "ValidateAmazonReceiptResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "ValidateGooglePlayPurchase",
+    "path": "/Client/ValidateGooglePlayPurchase",
+    "req": "ValidateGooglePlayPurchaseRequest",
+    "res": "ValidateGooglePlayPurchaseResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "ValidateIOSReceipt",
+    "path": "/Client/ValidateIOSReceipt",
+    "req": "ValidateIOSReceiptRequest",
+    "res": "ValidateIOSReceiptResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "ValidateWindowsStoreReceipt",
+    "path": "/Client/ValidateWindowsStoreReceipt",
+    "req": "ValidateWindowsReceiptRequest",
+    "res": "ValidateWindowsReceiptResult",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "WriteCharacterEvent",
+    "path": "/Client/WriteCharacterEvent",
+    "req": "WriteClientCharacterEventRequest",
+    "res": "WriteEventResponse",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "WritePlayerEvent",
+    "path": "/Client/WritePlayerEvent",
+    "req": "WriteClientPlayerEventRequest",
+    "res": "WriteEventResponse",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "Client",
+    "method": "WriteTitleEvent",
+    "path": "/Client/WriteTitleEvent",
+    "req": "WriteTitleEventRequest",
+    "res": "WriteEventResponse",
+    "auth": "LoginSession"
+  },
+  {
+    "surface": "CloudScript",
+    "method": "ExecuteEntityCloudScript",
+    "path": "/CloudScript/ExecuteEntityCloudScript",
+    "req": "ExecuteEntityCloudScriptRequest",
+    "res": "ExecuteCloudScriptResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "CloudScript",
+    "method": "ExecuteFunction",
+    "path": "/CloudScript/ExecuteFunction",
+    "req": "ExecuteFunctionRequest",
+    "res": "ExecuteFunctionResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "CloudScript",
+    "method": "GetFunction",
+    "path": "/CloudScript/GetFunction",
+    "req": "GetFunctionRequest",
+    "res": "GetFunctionResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "CloudScript",
+    "method": "ListEventHubFunctions",
+    "path": "/CloudScript/ListEventHubFunctions",
+    "req": "ListFunctionsRequest",
+    "res": "ListEventHubFunctionsResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "CloudScript",
+    "method": "ListFunctions",
+    "path": "/CloudScript/ListFunctions",
+    "req": "ListFunctionsRequest",
+    "res": "ListFunctionsResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "CloudScript",
+    "method": "ListHttpFunctions",
+    "path": "/CloudScript/ListHttpFunctions",
+    "req": "ListFunctionsRequest",
+    "res": "ListHttpFunctionsResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "CloudScript",
+    "method": "ListQueuedFunctions",
+    "path": "/CloudScript/ListQueuedFunctions",
+    "req": "ListFunctionsRequest",
+    "res": "ListQueuedFunctionsResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "CloudScript",
+    "method": "PostFunctionResultForEntityTriggeredAction",
+    "path": "/CloudScript/PostFunctionResultForEntityTriggeredAction",
+    "req": "PostFunctionResultForEntityTriggeredActionRequest",
+    "res": "EmptyResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "CloudScript",
+    "method": "PostFunctionResultForFunctionExecution",
+    "path": "/CloudScript/PostFunctionResultForFunctionExecution",
+    "req": "PostFunctionResultForFunctionExecutionRequest",
+    "res": "EmptyResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "CloudScript",
+    "method": "PostFunctionResultForPlayerTriggeredAction",
+    "path": "/CloudScript/PostFunctionResultForPlayerTriggeredAction",
+    "req": "PostFunctionResultForPlayerTriggeredActionRequest",
+    "res": "EmptyResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "CloudScript",
+    "method": "PostFunctionResultForScheduledTask",
+    "path": "/CloudScript/PostFunctionResultForScheduledTask",
+    "req": "PostFunctionResultForScheduledTaskRequest",
+    "res": "EmptyResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "CloudScript",
+    "method": "RegisterEventHubFunction",
+    "path": "/CloudScript/RegisterEventHubFunction",
+    "req": "RegisterEventHubFunctionRequest",
+    "res": "EmptyResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "CloudScript",
+    "method": "RegisterHttpFunction",
+    "path": "/CloudScript/RegisterHttpFunction",
+    "req": "RegisterHttpFunctionRequest",
+    "res": "EmptyResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "CloudScript",
+    "method": "RegisterQueuedFunction",
+    "path": "/CloudScript/RegisterQueuedFunction",
+    "req": "RegisterQueuedFunctionRequest",
+    "res": "EmptyResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "CloudScript",
+    "method": "UnregisterFunction",
+    "path": "/CloudScript/UnregisterFunction",
+    "req": "UnregisterFunctionRequest",
+    "res": "EmptyResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Data",
+    "method": "AbortFileUploads",
+    "path": "/File/AbortFileUploads",
+    "req": "AbortFileUploadsRequest",
+    "res": "AbortFileUploadsResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Data",
+    "method": "DeleteFiles",
+    "path": "/File/DeleteFiles",
+    "req": "DeleteFilesRequest",
+    "res": "DeleteFilesResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Data",
+    "method": "FinalizeFileUploads",
+    "path": "/File/FinalizeFileUploads",
+    "req": "FinalizeFileUploadsRequest",
+    "res": "FinalizeFileUploadsResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Data",
+    "method": "GetFiles",
+    "path": "/File/GetFiles",
+    "req": "GetFilesRequest",
+    "res": "GetFilesResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Data",
+    "method": "GetObjects",
+    "path": "/Object/GetObjects",
+    "req": "GetObjectsRequest",
+    "res": "GetObjectsResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Data",
+    "method": "InitiateFileUploads",
+    "path": "/File/InitiateFileUploads",
+    "req": "InitiateFileUploadsRequest",
+    "res": "InitiateFileUploadsResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Data",
+    "method": "SetObjects",
+    "path": "/Object/SetObjects",
+    "req": "SetObjectsRequest",
+    "res": "SetObjectsResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Economy",
+    "method": "AddInventoryItems",
+    "path": "/Inventory/AddInventoryItems",
+    "req": "AddInventoryItemsRequest",
+    "res": "AddInventoryItemsResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Economy",
+    "method": "CreateDraftItem",
+    "path": "/Catalog/CreateDraftItem",
+    "req": "CreateDraftItemRequest",
+    "res": "CreateDraftItemResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Economy",
+    "method": "CreateUploadUrls",
+    "path": "/Catalog/CreateUploadUrls",
+    "req": "CreateUploadUrlsRequest",
+    "res": "CreateUploadUrlsResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Economy",
+    "method": "DeleteEntityItemReviews",
+    "path": "/Catalog/DeleteEntityItemReviews",
+    "req": "DeleteEntityItemReviewsRequest",
+    "res": "DeleteEntityItemReviewsResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Economy",
+    "method": "DeleteInventoryCollection",
+    "path": "/Inventory/DeleteInventoryCollection",
+    "req": "DeleteInventoryCollectionRequest",
+    "res": "DeleteInventoryCollectionResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Economy",
+    "method": "DeleteInventoryItems",
+    "path": "/Inventory/DeleteInventoryItems",
+    "req": "DeleteInventoryItemsRequest",
+    "res": "DeleteInventoryItemsResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Economy",
+    "method": "DeleteItem",
+    "path": "/Catalog/DeleteItem",
+    "req": "DeleteItemRequest",
+    "res": "DeleteItemResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Economy",
+    "method": "ExecuteInventoryOperations",
+    "path": "/Inventory/ExecuteInventoryOperations",
+    "req": "ExecuteInventoryOperationsRequest",
+    "res": "ExecuteInventoryOperationsResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Economy",
+    "method": "ExecuteTransferOperations",
+    "path": "/Inventory/ExecuteTransferOperations",
+    "req": "ExecuteTransferOperationsRequest",
+    "res": "ExecuteTransferOperationsResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Economy",
+    "method": "GetCatalogConfig",
+    "path": "/Catalog/GetCatalogConfig",
+    "req": "GetCatalogConfigRequest",
+    "res": "GetCatalogConfigResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Economy",
+    "method": "GetDraftItem",
+    "path": "/Catalog/GetDraftItem",
+    "req": "GetDraftItemRequest",
+    "res": "GetDraftItemResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Economy",
+    "method": "GetDraftItems",
+    "path": "/Catalog/GetDraftItems",
+    "req": "GetDraftItemsRequest",
+    "res": "GetDraftItemsResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Economy",
+    "method": "GetEntityDraftItems",
+    "path": "/Catalog/GetEntityDraftItems",
+    "req": "GetEntityDraftItemsRequest",
+    "res": "GetEntityDraftItemsResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Economy",
+    "method": "GetEntityItemReview",
+    "path": "/Catalog/GetEntityItemReview",
+    "req": "GetEntityItemReviewRequest",
+    "res": "GetEntityItemReviewResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Economy",
+    "method": "GetInventoryCollectionIds",
+    "path": "/Inventory/GetInventoryCollectionIds",
+    "req": "GetInventoryCollectionIdsRequest",
+    "res": "GetInventoryCollectionIdsResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Economy",
+    "method": "GetInventoryItems",
+    "path": "/Inventory/GetInventoryItems",
+    "req": "GetInventoryItemsRequest",
+    "res": "GetInventoryItemsResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Economy",
+    "method": "GetInventoryOperationStatus",
+    "path": "/Inventory/GetInventoryOperationStatus",
+    "req": "GetInventoryOperationStatusRequest",
+    "res": "GetInventoryOperationStatusResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Economy",
+    "method": "GetItem",
+    "path": "/Catalog/GetItem",
+    "req": "GetItemRequest",
+    "res": "GetItemResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Economy",
+    "method": "GetItemContainers",
+    "path": "/Catalog/GetItemContainers",
+    "req": "GetItemContainersRequest",
+    "res": "GetItemContainersResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Economy",
+    "method": "GetItemModerationState",
+    "path": "/Catalog/GetItemModerationState",
+    "req": "GetItemModerationStateRequest",
+    "res": "GetItemModerationStateResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Economy",
+    "method": "GetItemPublishStatus",
+    "path": "/Catalog/GetItemPublishStatus",
+    "req": "GetItemPublishStatusRequest",
+    "res": "GetItemPublishStatusResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Economy",
+    "method": "GetItemReviews",
+    "path": "/Catalog/GetItemReviews",
+    "req": "GetItemReviewsRequest",
+    "res": "GetItemReviewsResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Economy",
+    "method": "GetItemReviewSummary",
+    "path": "/Catalog/GetItemReviewSummary",
+    "req": "GetItemReviewSummaryRequest",
+    "res": "GetItemReviewSummaryResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Economy",
+    "method": "GetItems",
+    "path": "/Catalog/GetItems",
+    "req": "GetItemsRequest",
+    "res": "GetItemsResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Economy",
+    "method": "GetTransactionHistory",
+    "path": "/Inventory/GetTransactionHistory",
+    "req": "GetTransactionHistoryRequest",
+    "res": "GetTransactionHistoryResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Economy",
+    "method": "PublishDraftItem",
+    "path": "/Catalog/PublishDraftItem",
+    "req": "PublishDraftItemRequest",
+    "res": "PublishDraftItemResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Economy",
+    "method": "PurchaseInventoryItems",
+    "path": "/Inventory/PurchaseInventoryItems",
+    "req": "PurchaseInventoryItemsRequest",
+    "res": "PurchaseInventoryItemsResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Economy",
+    "method": "RedeemAppleAppStoreInventoryItems",
+    "path": "/Inventory/RedeemAppleAppStoreInventoryItems",
+    "req": "RedeemAppleAppStoreInventoryItemsRequest",
+    "res": "RedeemAppleAppStoreInventoryItemsResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Economy",
+    "method": "RedeemAppleAppStoreWithJwsInventoryItems",
+    "path": "/Inventory/RedeemAppleAppStoreWithJwsInventoryItems",
+    "req": "RedeemAppleAppStoreWithJwsInventoryItemsRequest",
+    "res": "RedeemAppleAppStoreWithJwsInventoryItemsResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Economy",
+    "method": "RedeemGooglePlayInventoryItems",
+    "path": "/Inventory/RedeemGooglePlayInventoryItems",
+    "req": "RedeemGooglePlayInventoryItemsRequest",
+    "res": "RedeemGooglePlayInventoryItemsResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Economy",
+    "method": "RedeemMicrosoftStoreInventoryItems",
+    "path": "/Inventory/RedeemMicrosoftStoreInventoryItems",
+    "req": "RedeemMicrosoftStoreInventoryItemsRequest",
+    "res": "RedeemMicrosoftStoreInventoryItemsResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Economy",
+    "method": "RedeemNintendoEShopInventoryItems",
+    "path": "/Inventory/RedeemNintendoEShopInventoryItems",
+    "req": "RedeemNintendoEShopInventoryItemsRequest",
+    "res": "RedeemNintendoEShopInventoryItemsResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Economy",
+    "method": "RedeemPlayStationStoreInventoryItems",
+    "path": "/Inventory/RedeemPlayStationStoreInventoryItems",
+    "req": "RedeemPlayStationStoreInventoryItemsRequest",
+    "res": "RedeemPlayStationStoreInventoryItemsResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Economy",
+    "method": "RedeemSteamInventoryItems",
+    "path": "/Inventory/RedeemSteamInventoryItems",
+    "req": "RedeemSteamInventoryItemsRequest",
+    "res": "RedeemSteamInventoryItemsResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Economy",
+    "method": "ReportItem",
+    "path": "/Catalog/ReportItem",
+    "req": "ReportItemRequest",
+    "res": "ReportItemResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Economy",
+    "method": "ReportItemReview",
+    "path": "/Catalog/ReportItemReview",
+    "req": "ReportItemReviewRequest",
+    "res": "ReportItemReviewResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Economy",
+    "method": "ReviewItem",
+    "path": "/Catalog/ReviewItem",
+    "req": "ReviewItemRequest",
+    "res": "ReviewItemResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Economy",
+    "method": "SearchItems",
+    "path": "/Catalog/SearchItems",
+    "req": "SearchItemsRequest",
+    "res": "SearchItemsResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Economy",
+    "method": "SetItemModerationState",
+    "path": "/Catalog/SetItemModerationState",
+    "req": "SetItemModerationStateRequest",
+    "res": "SetItemModerationStateResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Economy",
+    "method": "SubmitItemReviewVote",
+    "path": "/Catalog/SubmitItemReviewVote",
+    "req": "SubmitItemReviewVoteRequest",
+    "res": "SubmitItemReviewVoteResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Economy",
+    "method": "SubtractInventoryItems",
+    "path": "/Inventory/SubtractInventoryItems",
+    "req": "SubtractInventoryItemsRequest",
+    "res": "SubtractInventoryItemsResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Economy",
+    "method": "TakedownItemReviews",
+    "path": "/Catalog/TakedownItemReviews",
+    "req": "TakedownItemReviewsRequest",
+    "res": "TakedownItemReviewsResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Economy",
+    "method": "TransferInventoryItems",
+    "path": "/Inventory/TransferInventoryItems",
+    "req": "TransferInventoryItemsRequest",
+    "res": "TransferInventoryItemsResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Economy",
+    "method": "UpdateCatalogConfig",
+    "path": "/Catalog/UpdateCatalogConfig",
+    "req": "UpdateCatalogConfigRequest",
+    "res": "UpdateCatalogConfigResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Economy",
+    "method": "UpdateDraftItem",
+    "path": "/Catalog/UpdateDraftItem",
+    "req": "UpdateDraftItemRequest",
+    "res": "UpdateDraftItemResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Economy",
+    "method": "UpdateInventoryItems",
+    "path": "/Inventory/UpdateInventoryItems",
+    "req": "UpdateInventoryItemsRequest",
+    "res": "UpdateInventoryItemsResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Events",
+    "method": "CreateTelemetryKey",
+    "path": "/Event/CreateTelemetryKey",
+    "req": "CreateTelemetryKeyRequest",
+    "res": "CreateTelemetryKeyResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Events",
+    "method": "DeleteDataConnection",
+    "path": "/Event/DeleteDataConnection",
+    "req": "DeleteDataConnectionRequest",
+    "res": "DeleteDataConnectionResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Events",
+    "method": "DeleteTelemetryKey",
+    "path": "/Event/DeleteTelemetryKey",
+    "req": "DeleteTelemetryKeyRequest",
+    "res": "DeleteTelemetryKeyResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Events",
+    "method": "GetDataConnection",
+    "path": "/Event/GetDataConnection",
+    "req": "GetDataConnectionRequest",
+    "res": "GetDataConnectionResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Events",
+    "method": "GetTelemetryKey",
+    "path": "/Event/GetTelemetryKey",
+    "req": "GetTelemetryKeyRequest",
+    "res": "GetTelemetryKeyResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Events",
+    "method": "ListDataConnections",
+    "path": "/Event/ListDataConnections",
+    "req": "ListDataConnectionsRequest",
+    "res": "ListDataConnectionsResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Events",
+    "method": "ListTelemetryKeys",
+    "path": "/Event/ListTelemetryKeys",
+    "req": "ListTelemetryKeysRequest",
+    "res": "ListTelemetryKeysResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Events",
+    "method": "SetDataConnection",
+    "path": "/Event/SetDataConnection",
+    "req": "SetDataConnectionRequest",
+    "res": "SetDataConnectionResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Events",
+    "method": "SetDataConnectionActive",
+    "path": "/Event/SetDataConnectionActive",
+    "req": "SetDataConnectionActiveRequest",
+    "res": "SetDataConnectionActiveResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Events",
+    "method": "SetTelemetryKeyActive",
+    "path": "/Event/SetTelemetryKeyActive",
+    "req": "SetTelemetryKeyActiveRequest",
+    "res": "SetTelemetryKeyActiveResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Events",
+    "method": "WriteEvents",
+    "path": "/Event/WriteEvents",
+    "req": "WriteEventsRequest",
+    "res": "WriteEventsResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Events",
+    "method": "WriteTelemetryEvents",
+    "path": "/Event/WriteTelemetryEvents",
+    "req": "WriteEventsRequest",
+    "res": "WriteEventsResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Events",
+    "method": "WriteTelemetryEventsWithTelemetryKey",
+    "path": "/Event/WriteTelemetryEvents",
+    "req": "WriteEventsRequest",
+    "res": "WriteEventsResponse",
+    "auth": "TelemetryKey"
+  },
+  {
+    "surface": "Experimentation",
+    "method": "CreateExclusionGroup",
+    "path": "/Experimentation/CreateExclusionGroup",
+    "req": "CreateExclusionGroupRequest",
+    "res": "CreateExclusionGroupResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Experimentation",
+    "method": "CreateExperiment",
+    "path": "/Experimentation/CreateExperiment",
+    "req": "CreateExperimentRequest",
+    "res": "CreateExperimentResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Experimentation",
+    "method": "DeleteExclusionGroup",
+    "path": "/Experimentation/DeleteExclusionGroup",
+    "req": "DeleteExclusionGroupRequest",
+    "res": "EmptyResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Experimentation",
+    "method": "DeleteExperiment",
+    "path": "/Experimentation/DeleteExperiment",
+    "req": "DeleteExperimentRequest",
+    "res": "EmptyResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Experimentation",
+    "method": "GetExclusionGroups",
+    "path": "/Experimentation/GetExclusionGroups",
+    "req": "GetExclusionGroupsRequest",
+    "res": "GetExclusionGroupsResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Experimentation",
+    "method": "GetExclusionGroupTraffic",
+    "path": "/Experimentation/GetExclusionGroupTraffic",
+    "req": "GetExclusionGroupTrafficRequest",
+    "res": "GetExclusionGroupTrafficResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Experimentation",
+    "method": "GetExperiments",
+    "path": "/Experimentation/GetExperiments",
+    "req": "GetExperimentsRequest",
+    "res": "GetExperimentsResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Experimentation",
+    "method": "GetLatestScorecard",
+    "path": "/Experimentation/GetLatestScorecard",
+    "req": "GetLatestScorecardRequest",
+    "res": "GetLatestScorecardResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Experimentation",
+    "method": "GetTreatmentAssignment",
+    "path": "/Experimentation/GetTreatmentAssignment",
+    "req": "GetTreatmentAssignmentRequest",
+    "res": "GetTreatmentAssignmentResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Experimentation",
+    "method": "StartExperiment",
+    "path": "/Experimentation/StartExperiment",
+    "req": "StartExperimentRequest",
+    "res": "EmptyResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Experimentation",
+    "method": "StopExperiment",
+    "path": "/Experimentation/StopExperiment",
+    "req": "StopExperimentRequest",
+    "res": "EmptyResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Experimentation",
+    "method": "UpdateExclusionGroup",
+    "path": "/Experimentation/UpdateExclusionGroup",
+    "req": "UpdateExclusionGroupRequest",
+    "res": "EmptyResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Experimentation",
+    "method": "UpdateExperiment",
+    "path": "/Experimentation/UpdateExperiment",
+    "req": "UpdateExperimentRequest",
+    "res": "EmptyResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Groups",
+    "method": "AcceptGroupApplication",
+    "path": "/Group/AcceptGroupApplication",
+    "req": "AcceptGroupApplicationRequest",
+    "res": "EmptyResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Groups",
+    "method": "AcceptGroupInvitation",
+    "path": "/Group/AcceptGroupInvitation",
+    "req": "AcceptGroupInvitationRequest",
+    "res": "EmptyResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Groups",
+    "method": "AddMembers",
+    "path": "/Group/AddMembers",
+    "req": "AddMembersRequest",
+    "res": "EmptyResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Groups",
+    "method": "ApplyToGroup",
+    "path": "/Group/ApplyToGroup",
+    "req": "ApplyToGroupRequest",
+    "res": "ApplyToGroupResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Groups",
+    "method": "BlockEntity",
+    "path": "/Group/BlockEntity",
+    "req": "BlockEntityRequest",
+    "res": "EmptyResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Groups",
+    "method": "ChangeMemberRole",
+    "path": "/Group/ChangeMemberRole",
+    "req": "ChangeMemberRoleRequest",
+    "res": "EmptyResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Groups",
+    "method": "CreateGroup",
+    "path": "/Group/CreateGroup",
+    "req": "CreateGroupRequest",
+    "res": "CreateGroupResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Groups",
+    "method": "CreateRole",
+    "path": "/Group/CreateRole",
+    "req": "CreateGroupRoleRequest",
+    "res": "CreateGroupRoleResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Groups",
+    "method": "DeleteGroup",
+    "path": "/Group/DeleteGroup",
+    "req": "DeleteGroupRequest",
+    "res": "EmptyResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Groups",
+    "method": "DeleteRole",
+    "path": "/Group/DeleteRole",
+    "req": "DeleteRoleRequest",
+    "res": "EmptyResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Groups",
+    "method": "GetGroup",
+    "path": "/Group/GetGroup",
+    "req": "GetGroupRequest",
+    "res": "GetGroupResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Groups",
+    "method": "InviteToGroup",
+    "path": "/Group/InviteToGroup",
+    "req": "InviteToGroupRequest",
+    "res": "InviteToGroupResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Groups",
+    "method": "IsMember",
+    "path": "/Group/IsMember",
+    "req": "IsMemberRequest",
+    "res": "IsMemberResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Groups",
+    "method": "ListGroupApplications",
+    "path": "/Group/ListGroupApplications",
+    "req": "ListGroupApplicationsRequest",
+    "res": "ListGroupApplicationsResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Groups",
+    "method": "ListGroupBlocks",
+    "path": "/Group/ListGroupBlocks",
+    "req": "ListGroupBlocksRequest",
+    "res": "ListGroupBlocksResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Groups",
+    "method": "ListGroupInvitations",
+    "path": "/Group/ListGroupInvitations",
+    "req": "ListGroupInvitationsRequest",
+    "res": "ListGroupInvitationsResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Groups",
+    "method": "ListGroupMembers",
+    "path": "/Group/ListGroupMembers",
+    "req": "ListGroupMembersRequest",
+    "res": "ListGroupMembersResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Groups",
+    "method": "ListMembership",
+    "path": "/Group/ListMembership",
+    "req": "ListMembershipRequest",
+    "res": "ListMembershipResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Groups",
+    "method": "ListMembershipOpportunities",
+    "path": "/Group/ListMembershipOpportunities",
+    "req": "ListMembershipOpportunitiesRequest",
+    "res": "ListMembershipOpportunitiesResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Groups",
+    "method": "RemoveGroupApplication",
+    "path": "/Group/RemoveGroupApplication",
+    "req": "RemoveGroupApplicationRequest",
+    "res": "EmptyResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Groups",
+    "method": "RemoveGroupInvitation",
+    "path": "/Group/RemoveGroupInvitation",
+    "req": "RemoveGroupInvitationRequest",
+    "res": "EmptyResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Groups",
+    "method": "RemoveMembers",
+    "path": "/Group/RemoveMembers",
+    "req": "RemoveMembersRequest",
+    "res": "EmptyResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Groups",
+    "method": "UnblockEntity",
+    "path": "/Group/UnblockEntity",
+    "req": "UnblockEntityRequest",
+    "res": "EmptyResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Groups",
+    "method": "UpdateGroup",
+    "path": "/Group/UpdateGroup",
+    "req": "UpdateGroupRequest",
+    "res": "UpdateGroupResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Groups",
+    "method": "UpdateRole",
+    "path": "/Group/UpdateRole",
+    "req": "UpdateGroupRoleRequest",
+    "res": "UpdateGroupRoleResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Insights",
+    "method": "GetDetails",
+    "path": "/Insights/GetDetails",
+    "req": "InsightsEmptyRequest",
+    "res": "InsightsGetDetailsResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Insights",
+    "method": "GetLimits",
+    "path": "/Insights/GetLimits",
+    "req": "InsightsEmptyRequest",
+    "res": "InsightsGetLimitsResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Insights",
+    "method": "GetOperationStatus",
+    "path": "/Insights/GetOperationStatus",
+    "req": "InsightsGetOperationStatusRequest",
+    "res": "InsightsGetOperationStatusResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Insights",
+    "method": "GetPendingOperations",
+    "path": "/Insights/GetPendingOperations",
+    "req": "InsightsGetPendingOperationsRequest",
+    "res": "InsightsGetPendingOperationsResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Insights",
+    "method": "SetPerformance",
+    "path": "/Insights/SetPerformance",
+    "req": "InsightsSetPerformanceRequest",
+    "res": "InsightsOperationResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Insights",
+    "method": "SetStorageRetention",
+    "path": "/Insights/SetStorageRetention",
+    "req": "InsightsSetStorageRetentionRequest",
+    "res": "InsightsOperationResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Localization",
+    "method": "GetLanguageList",
+    "path": "/Locale/GetLanguageList",
+    "req": "GetLanguageListRequest",
+    "res": "GetLanguageListResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "CancelAllMatchmakingTicketsForPlayer",
+    "path": "/Match/CancelAllMatchmakingTicketsForPlayer",
+    "req": "CancelAllMatchmakingTicketsForPlayerRequest",
+    "res": "CancelAllMatchmakingTicketsForPlayerResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "CancelAllServerBackfillTicketsForPlayer",
+    "path": "/Match/CancelAllServerBackfillTicketsForPlayer",
+    "req": "CancelAllServerBackfillTicketsForPlayerRequest",
+    "res": "CancelAllServerBackfillTicketsForPlayerResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "CancelMatchmakingTicket",
+    "path": "/Match/CancelMatchmakingTicket",
+    "req": "CancelMatchmakingTicketRequest",
+    "res": "CancelMatchmakingTicketResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "CancelServerBackfillTicket",
+    "path": "/Match/CancelServerBackfillTicket",
+    "req": "CancelServerBackfillTicketRequest",
+    "res": "CancelServerBackfillTicketResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "CreateBuildAlias",
+    "path": "/MultiplayerServer/CreateBuildAlias",
+    "req": "CreateBuildAliasRequest",
+    "res": "BuildAliasDetailsResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "CreateBuildWithCustomContainer",
+    "path": "/MultiplayerServer/CreateBuildWithCustomContainer",
+    "req": "CreateBuildWithCustomContainerRequest",
+    "res": "CreateBuildWithCustomContainerResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "CreateBuildWithManagedContainer",
+    "path": "/MultiplayerServer/CreateBuildWithManagedContainer",
+    "req": "CreateBuildWithManagedContainerRequest",
+    "res": "CreateBuildWithManagedContainerResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "CreateBuildWithProcessBasedServer",
+    "path": "/MultiplayerServer/CreateBuildWithProcessBasedServer",
+    "req": "CreateBuildWithProcessBasedServerRequest",
+    "res": "CreateBuildWithProcessBasedServerResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "CreateLobby",
+    "path": "/Lobby/CreateLobby",
+    "req": "CreateLobbyRequest",
+    "res": "CreateLobbyResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "CreateMatchmakingTicket",
+    "path": "/Match/CreateMatchmakingTicket",
+    "req": "CreateMatchmakingTicketRequest",
+    "res": "CreateMatchmakingTicketResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "CreateRemoteUser",
+    "path": "/MultiplayerServer/CreateRemoteUser",
+    "req": "CreateRemoteUserRequest",
+    "res": "CreateRemoteUserResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "CreateServerBackfillTicket",
+    "path": "/Match/CreateServerBackfillTicket",
+    "req": "CreateServerBackfillTicketRequest",
+    "res": "CreateServerBackfillTicketResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "CreateServerMatchmakingTicket",
+    "path": "/Match/CreateServerMatchmakingTicket",
+    "req": "CreateServerMatchmakingTicketRequest",
+    "res": "CreateMatchmakingTicketResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "CreateTitleMultiplayerServersQuotaChange",
+    "path": "/MultiplayerServer/CreateTitleMultiplayerServersQuotaChange",
+    "req": "CreateTitleMultiplayerServersQuotaChangeRequest",
+    "res": "CreateTitleMultiplayerServersQuotaChangeResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "DeleteAsset",
+    "path": "/MultiplayerServer/DeleteAsset",
+    "req": "DeleteAssetRequest",
+    "res": "EmptyResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "DeleteBuild",
+    "path": "/MultiplayerServer/DeleteBuild",
+    "req": "DeleteBuildRequest",
+    "res": "EmptyResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "DeleteBuildAlias",
+    "path": "/MultiplayerServer/DeleteBuildAlias",
+    "req": "DeleteBuildAliasRequest",
+    "res": "EmptyResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "DeleteBuildRegion",
+    "path": "/MultiplayerServer/DeleteBuildRegion",
+    "req": "DeleteBuildRegionRequest",
+    "res": "EmptyResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "DeleteCertificate",
+    "path": "/MultiplayerServer/DeleteCertificate",
+    "req": "DeleteCertificateRequest",
+    "res": "EmptyResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "DeleteContainerImageRepository",
+    "path": "/MultiplayerServer/DeleteContainerImageRepository",
+    "req": "DeleteContainerImageRequest",
+    "res": "EmptyResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "DeleteLobby",
+    "path": "/Lobby/DeleteLobby",
+    "req": "DeleteLobbyRequest",
+    "res": "LobbyEmptyResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "DeleteRemoteUser",
+    "path": "/MultiplayerServer/DeleteRemoteUser",
+    "req": "DeleteRemoteUserRequest",
+    "res": "EmptyResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "DeleteSecret",
+    "path": "/MultiplayerServer/DeleteSecret",
+    "req": "DeleteSecretRequest",
+    "res": "EmptyResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "EnableMultiplayerServersForTitle",
+    "path": "/MultiplayerServer/EnableMultiplayerServersForTitle",
+    "req": "EnableMultiplayerServersForTitleRequest",
+    "res": "EnableMultiplayerServersForTitleResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "FindFriendLobbies",
+    "path": "/Lobby/FindFriendLobbies",
+    "req": "FindFriendLobbiesRequest",
+    "res": "FindFriendLobbiesResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "FindLobbies",
+    "path": "/Lobby/FindLobbies",
+    "req": "FindLobbiesRequest",
+    "res": "FindLobbiesResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "GetAssetDownloadUrl",
+    "path": "/MultiplayerServer/GetAssetDownloadUrl",
+    "req": "GetAssetDownloadUrlRequest",
+    "res": "GetAssetDownloadUrlResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "GetAssetUploadUrl",
+    "path": "/MultiplayerServer/GetAssetUploadUrl",
+    "req": "GetAssetUploadUrlRequest",
+    "res": "GetAssetUploadUrlResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "GetBuild",
+    "path": "/MultiplayerServer/GetBuild",
+    "req": "GetBuildRequest",
+    "res": "GetBuildResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "GetBuildAlias",
+    "path": "/MultiplayerServer/GetBuildAlias",
+    "req": "GetBuildAliasRequest",
+    "res": "BuildAliasDetailsResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "GetContainerRegistryCredentials",
+    "path": "/MultiplayerServer/GetContainerRegistryCredentials",
+    "req": "GetContainerRegistryCredentialsRequest",
+    "res": "GetContainerRegistryCredentialsResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "GetLobby",
+    "path": "/Lobby/GetLobby",
+    "req": "GetLobbyRequest",
+    "res": "GetLobbyResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "GetMatch",
+    "path": "/Match/GetMatch",
+    "req": "GetMatchRequest",
+    "res": "GetMatchResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "GetMatchmakingQueue",
+    "path": "/Match/GetMatchmakingQueue",
+    "req": "GetMatchmakingQueueRequest",
+    "res": "GetMatchmakingQueueResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "GetMatchmakingTicket",
+    "path": "/Match/GetMatchmakingTicket",
+    "req": "GetMatchmakingTicketRequest",
+    "res": "GetMatchmakingTicketResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "GetMultiplayerServerDetails",
+    "path": "/MultiplayerServer/GetMultiplayerServerDetails",
+    "req": "GetMultiplayerServerDetailsRequest",
+    "res": "GetMultiplayerServerDetailsResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "GetMultiplayerServerLogs",
+    "path": "/MultiplayerServer/GetMultiplayerServerLogs",
+    "req": "GetMultiplayerServerLogsRequest",
+    "res": "GetMultiplayerServerLogsResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "GetMultiplayerSessionLogsBySessionId",
+    "path": "/MultiplayerServer/GetMultiplayerSessionLogsBySessionId",
+    "req": "GetMultiplayerSessionLogsBySessionIdRequest",
+    "res": "GetMultiplayerServerLogsResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "GetQueueStatistics",
+    "path": "/Match/GetQueueStatistics",
+    "req": "GetQueueStatisticsRequest",
+    "res": "GetQueueStatisticsResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "GetRemoteLoginEndpoint",
+    "path": "/MultiplayerServer/GetRemoteLoginEndpoint",
+    "req": "GetRemoteLoginEndpointRequest",
+    "res": "GetRemoteLoginEndpointResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "GetServerBackfillTicket",
+    "path": "/Match/GetServerBackfillTicket",
+    "req": "GetServerBackfillTicketRequest",
+    "res": "GetServerBackfillTicketResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "GetTitleEnabledForMultiplayerServersStatus",
+    "path": "/MultiplayerServer/GetTitleEnabledForMultiplayerServersStatus",
+    "req": "GetTitleEnabledForMultiplayerServersStatusRequest",
+    "res": "GetTitleEnabledForMultiplayerServersStatusResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "GetTitleMultiplayerServersQuotaChange",
+    "path": "/MultiplayerServer/GetTitleMultiplayerServersQuotaChange",
+    "req": "GetTitleMultiplayerServersQuotaChangeRequest",
+    "res": "GetTitleMultiplayerServersQuotaChangeResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "GetTitleMultiplayerServersQuotas",
+    "path": "/MultiplayerServer/GetTitleMultiplayerServersQuotas",
+    "req": "GetTitleMultiplayerServersQuotasRequest",
+    "res": "GetTitleMultiplayerServersQuotasResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "InviteToLobby",
+    "path": "/Lobby/InviteToLobby",
+    "req": "InviteToLobbyRequest",
+    "res": "LobbyEmptyResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "JoinArrangedLobby",
+    "path": "/Lobby/JoinArrangedLobby",
+    "req": "JoinArrangedLobbyRequest",
+    "res": "JoinLobbyResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "JoinLobby",
+    "path": "/Lobby/JoinLobby",
+    "req": "JoinLobbyRequest",
+    "res": "JoinLobbyResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "JoinLobbyAsServer",
+    "path": "/Lobby/JoinLobbyAsServer",
+    "req": "JoinLobbyAsServerRequest",
+    "res": "JoinLobbyAsServerResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "JoinMatchmakingTicket",
+    "path": "/Match/JoinMatchmakingTicket",
+    "req": "JoinMatchmakingTicketRequest",
+    "res": "JoinMatchmakingTicketResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "LeaveLobby",
+    "path": "/Lobby/LeaveLobby",
+    "req": "LeaveLobbyRequest",
+    "res": "LobbyEmptyResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "LeaveLobbyAsServer",
+    "path": "/Lobby/LeaveLobbyAsServer",
+    "req": "LeaveLobbyAsServerRequest",
+    "res": "LobbyEmptyResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "ListArchivedMultiplayerServers",
+    "path": "/MultiplayerServer/ListArchivedMultiplayerServers",
+    "req": "ListMultiplayerServersRequest",
+    "res": "ListMultiplayerServersResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "ListAssetSummaries",
+    "path": "/MultiplayerServer/ListAssetSummaries",
+    "req": "ListAssetSummariesRequest",
+    "res": "ListAssetSummariesResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "ListBuildAliases",
+    "path": "/MultiplayerServer/ListBuildAliases",
+    "req": "ListBuildAliasesRequest",
+    "res": "ListBuildAliasesResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "ListBuildSummariesV2",
+    "path": "/MultiplayerServer/ListBuildSummariesV2",
+    "req": "ListBuildSummariesRequest",
+    "res": "ListBuildSummariesResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "ListCertificateSummaries",
+    "path": "/MultiplayerServer/ListCertificateSummaries",
+    "req": "ListCertificateSummariesRequest",
+    "res": "ListCertificateSummariesResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "ListContainerImages",
+    "path": "/MultiplayerServer/ListContainerImages",
+    "req": "ListContainerImagesRequest",
+    "res": "ListContainerImagesResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "ListContainerImageTags",
+    "path": "/MultiplayerServer/ListContainerImageTags",
+    "req": "ListContainerImageTagsRequest",
+    "res": "ListContainerImageTagsResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "ListMatchmakingQueues",
+    "path": "/Match/ListMatchmakingQueues",
+    "req": "ListMatchmakingQueuesRequest",
+    "res": "ListMatchmakingQueuesResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "ListMatchmakingTicketsForPlayer",
+    "path": "/Match/ListMatchmakingTicketsForPlayer",
+    "req": "ListMatchmakingTicketsForPlayerRequest",
+    "res": "ListMatchmakingTicketsForPlayerResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "ListMultiplayerServers",
+    "path": "/MultiplayerServer/ListMultiplayerServers",
+    "req": "ListMultiplayerServersRequest",
+    "res": "ListMultiplayerServersResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "ListPartyQosServers",
+    "path": "/MultiplayerServer/ListPartyQosServers",
+    "req": "ListPartyQosServersRequest",
+    "res": "ListPartyQosServersResponse",
+    "auth": "None"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "ListQosServersForTitle",
+    "path": "/MultiplayerServer/ListQosServersForTitle",
+    "req": "ListQosServersForTitleRequest",
+    "res": "ListQosServersForTitleResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "ListSecretSummaries",
+    "path": "/MultiplayerServer/ListSecretSummaries",
+    "req": "ListSecretSummariesRequest",
+    "res": "ListSecretSummariesResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "ListServerBackfillTicketsForPlayer",
+    "path": "/Match/ListServerBackfillTicketsForPlayer",
+    "req": "ListServerBackfillTicketsForPlayerRequest",
+    "res": "ListServerBackfillTicketsForPlayerResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "ListTitleMultiplayerServersQuotaChanges",
+    "path": "/MultiplayerServer/ListTitleMultiplayerServersQuotaChanges",
+    "req": "ListTitleMultiplayerServersQuotaChangesRequest",
+    "res": "ListTitleMultiplayerServersQuotaChangesResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "ListVirtualMachineSummaries",
+    "path": "/MultiplayerServer/ListVirtualMachineSummaries",
+    "req": "ListVirtualMachineSummariesRequest",
+    "res": "ListVirtualMachineSummariesResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "RemoveMatchmakingQueue",
+    "path": "/Match/RemoveMatchmakingQueue",
+    "req": "RemoveMatchmakingQueueRequest",
+    "res": "RemoveMatchmakingQueueResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "RemoveMember",
+    "path": "/Lobby/RemoveMember",
+    "req": "RemoveMemberFromLobbyRequest",
+    "res": "LobbyEmptyResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "RequestMultiplayerServer",
+    "path": "/MultiplayerServer/RequestMultiplayerServer",
+    "req": "RequestMultiplayerServerRequest",
+    "res": "RequestMultiplayerServerResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "RequestPartyService",
+    "path": "/Party/RequestPartyService",
+    "req": "RequestPartyServiceRequest",
+    "res": "RequestPartyServiceResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "RolloverContainerRegistryCredentials",
+    "path": "/MultiplayerServer/RolloverContainerRegistryCredentials",
+    "req": "RolloverContainerRegistryCredentialsRequest",
+    "res": "RolloverContainerRegistryCredentialsResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "SetMatchmakingQueue",
+    "path": "/Match/SetMatchmakingQueue",
+    "req": "SetMatchmakingQueueRequest",
+    "res": "SetMatchmakingQueueResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "ShutdownMultiplayerServer",
+    "path": "/MultiplayerServer/ShutdownMultiplayerServer",
+    "req": "ShutdownMultiplayerServerRequest",
+    "res": "EmptyResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "SubscribeToLobbyResource",
+    "path": "/Lobby/SubscribeToLobbyResource",
+    "req": "SubscribeToLobbyResourceRequest",
+    "res": "SubscribeToLobbyResourceResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "SubscribeToMatchmakingResource",
+    "path": "/Match/SubscribeToMatchmakingResource",
+    "req": "SubscribeToMatchResourceRequest",
+    "res": "SubscribeToMatchResourceResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "UnsubscribeFromLobbyResource",
+    "path": "/Lobby/UnsubscribeFromLobbyResource",
+    "req": "UnsubscribeFromLobbyResourceRequest",
+    "res": "LobbyEmptyResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "UnsubscribeFromMatchmakingResource",
+    "path": "/Match/UnsubscribeFromMatchmakingResource",
+    "req": "UnsubscribeFromMatchResourceRequest",
+    "res": "UnsubscribeFromMatchResourceResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "UntagContainerImage",
+    "path": "/MultiplayerServer/UntagContainerImage",
+    "req": "UntagContainerImageRequest",
+    "res": "EmptyResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "UpdateBuildAlias",
+    "path": "/MultiplayerServer/UpdateBuildAlias",
+    "req": "UpdateBuildAliasRequest",
+    "res": "BuildAliasDetailsResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "UpdateBuildName",
+    "path": "/MultiplayerServer/UpdateBuildName",
+    "req": "UpdateBuildNameRequest",
+    "res": "EmptyResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "UpdateBuildRegion",
+    "path": "/MultiplayerServer/UpdateBuildRegion",
+    "req": "UpdateBuildRegionRequest",
+    "res": "EmptyResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "UpdateBuildRegions",
+    "path": "/MultiplayerServer/UpdateBuildRegions",
+    "req": "UpdateBuildRegionsRequest",
+    "res": "EmptyResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "UpdateLobby",
+    "path": "/Lobby/UpdateLobby",
+    "req": "UpdateLobbyRequest",
+    "res": "LobbyEmptyResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "UpdateLobbyAsServer",
+    "path": "/Lobby/UpdateLobbyAsServer",
+    "req": "UpdateLobbyAsServerRequest",
+    "res": "LobbyEmptyResult",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "UploadCertificate",
+    "path": "/MultiplayerServer/UploadCertificate",
+    "req": "UploadCertificateRequest",
+    "res": "EmptyResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Multiplayer",
+    "method": "UploadSecret",
+    "path": "/MultiplayerServer/UploadSecret",
+    "req": "UploadSecretRequest",
+    "res": "EmptyResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Profiles",
+    "method": "GetGlobalPolicy",
+    "path": "/Profile/GetGlobalPolicy",
+    "req": "GetGlobalPolicyRequest",
+    "res": "GetGlobalPolicyResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Profiles",
+    "method": "GetProfile",
+    "path": "/Profile/GetProfile",
+    "req": "GetEntityProfileRequest",
+    "res": "GetEntityProfileResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Profiles",
+    "method": "GetProfiles",
+    "path": "/Profile/GetProfiles",
+    "req": "GetEntityProfilesRequest",
+    "res": "GetEntityProfilesResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Profiles",
+    "method": "GetTitlePlayersFromMasterPlayerAccountIds",
+    "path": "/Profile/GetTitlePlayersFromMasterPlayerAccountIds",
+    "req": "GetTitlePlayersFromMasterPlayerAccountIdsRequest",
+    "res": "GetTitlePlayersFromMasterPlayerAccountIdsResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Profiles",
+    "method": "GetTitlePlayersFromXboxLiveIDs",
+    "path": "/Profile/GetTitlePlayersFromXboxLiveIDs",
+    "req": "GetTitlePlayersFromXboxLiveIDsRequest",
+    "res": "GetTitlePlayersFromProviderIDsResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Profiles",
+    "method": "SetDisplayName",
+    "path": "/Profile/SetDisplayName",
+    "req": "SetDisplayNameRequest",
+    "res": "SetDisplayNameResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Profiles",
+    "method": "SetGlobalPolicy",
+    "path": "/Profile/SetGlobalPolicy",
+    "req": "SetGlobalPolicyRequest",
+    "res": "SetGlobalPolicyResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Profiles",
+    "method": "SetProfileLanguage",
+    "path": "/Profile/SetProfileLanguage",
+    "req": "SetProfileLanguageRequest",
+    "res": "SetProfileLanguageResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Profiles",
+    "method": "SetProfilePolicy",
+    "path": "/Profile/SetProfilePolicy",
+    "req": "SetEntityProfilePolicyRequest",
+    "res": "SetEntityProfilePolicyResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Progression",
+    "method": "CreateLeaderboardDefinition",
+    "path": "/Leaderboard/CreateLeaderboardDefinition",
+    "req": "CreateLeaderboardDefinitionRequest",
+    "res": "EmptyResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Progression",
+    "method": "CreateStatisticDefinition",
+    "path": "/Statistic/CreateStatisticDefinition",
+    "req": "CreateStatisticDefinitionRequest",
+    "res": "EmptyResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Progression",
+    "method": "DeleteLeaderboardDefinition",
+    "path": "/Leaderboard/DeleteLeaderboardDefinition",
+    "req": "DeleteLeaderboardDefinitionRequest",
+    "res": "EmptyResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Progression",
+    "method": "DeleteLeaderboardEntries",
+    "path": "/Leaderboard/DeleteLeaderboardEntries",
+    "req": "DeleteLeaderboardEntriesRequest",
+    "res": "EmptyResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Progression",
+    "method": "DeleteStatisticDefinition",
+    "path": "/Statistic/DeleteStatisticDefinition",
+    "req": "DeleteStatisticDefinitionRequest",
+    "res": "EmptyResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Progression",
+    "method": "DeleteStatistics",
+    "path": "/Statistic/DeleteStatistics",
+    "req": "DeleteStatisticsRequest",
+    "res": "DeleteStatisticsResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Progression",
+    "method": "GetFriendLeaderboardForEntity",
+    "path": "/Leaderboard/GetFriendLeaderboardForEntity",
+    "req": "GetFriendLeaderboardForEntityRequest",
+    "res": "GetEntityLeaderboardResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Progression",
+    "method": "GetLeaderboard",
+    "path": "/Leaderboard/GetLeaderboard",
+    "req": "GetEntityLeaderboardRequest",
+    "res": "GetEntityLeaderboardResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Progression",
+    "method": "GetLeaderboardAroundEntity",
+    "path": "/Leaderboard/GetLeaderboardAroundEntity",
+    "req": "GetLeaderboardAroundEntityRequest",
+    "res": "GetEntityLeaderboardResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Progression",
+    "method": "GetLeaderboardDefinition",
+    "path": "/Leaderboard/GetLeaderboardDefinition",
+    "req": "GetLeaderboardDefinitionRequest",
+    "res": "GetLeaderboardDefinitionResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Progression",
+    "method": "GetLeaderboardForEntities",
+    "path": "/Leaderboard/GetLeaderboardForEntities",
+    "req": "GetLeaderboardForEntitiesRequest",
+    "res": "GetEntityLeaderboardResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Progression",
+    "method": "GetStatisticDefinition",
+    "path": "/Statistic/GetStatisticDefinition",
+    "req": "GetStatisticDefinitionRequest",
+    "res": "GetStatisticDefinitionResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Progression",
+    "method": "GetStatistics",
+    "path": "/Statistic/GetStatistics",
+    "req": "GetStatisticsRequest",
+    "res": "GetStatisticsResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Progression",
+    "method": "GetStatisticsForEntities",
+    "path": "/Statistic/GetStatisticsForEntities",
+    "req": "GetStatisticsForEntitiesRequest",
+    "res": "GetStatisticsForEntitiesResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Progression",
+    "method": "IncrementLeaderboardVersion",
+    "path": "/Leaderboard/IncrementLeaderboardVersion",
+    "req": "IncrementLeaderboardVersionRequest",
+    "res": "IncrementLeaderboardVersionResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Progression",
+    "method": "IncrementStatisticVersion",
+    "path": "/Statistic/IncrementStatisticVersion",
+    "req": "IncrementStatisticVersionRequest",
+    "res": "IncrementStatisticVersionResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Progression",
+    "method": "ListLeaderboardDefinitions",
+    "path": "/Leaderboard/ListLeaderboardDefinitions",
+    "req": "ListLeaderboardDefinitionsRequest",
+    "res": "ListLeaderboardDefinitionsResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Progression",
+    "method": "ListStatisticDefinitions",
+    "path": "/Statistic/ListStatisticDefinitions",
+    "req": "ListStatisticDefinitionsRequest",
+    "res": "ListStatisticDefinitionsResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Progression",
+    "method": "UnlinkAggregationSourceFromStatistic",
+    "path": "/Statistic/UnlinkAggregationSourceFromStatistic",
+    "req": "UnlinkAggregationSourceFromStatisticRequest",
+    "res": "EmptyResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Progression",
+    "method": "UnlinkLeaderboardFromStatistic",
+    "path": "/Leaderboard/UnlinkLeaderboardFromStatistic",
+    "req": "UnlinkLeaderboardFromStatisticRequest",
+    "res": "EmptyResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Progression",
+    "method": "UpdateLeaderboardDefinition",
+    "path": "/Leaderboard/UpdateLeaderboardDefinition",
+    "req": "UpdateLeaderboardDefinitionRequest",
+    "res": "EmptyResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Progression",
+    "method": "UpdateLeaderboardEntries",
+    "path": "/Leaderboard/UpdateLeaderboardEntries",
+    "req": "UpdateLeaderboardEntriesRequest",
+    "res": "EmptyResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Progression",
+    "method": "UpdateStatisticDefinition",
+    "path": "/Statistic/UpdateStatisticDefinition",
+    "req": "UpdateStatisticDefinitionRequest",
+    "res": "EmptyResponse",
+    "auth": "EntityToken"
+  },
+  {
+    "surface": "Progression",
+    "method": "UpdateStatistics",
+    "path": "/Statistic/UpdateStatistics",
+    "req": "UpdateStatisticsRequest",
+    "res": "UpdateStatisticsResponse",
+    "auth": "EntityToken"
+  }
+]
